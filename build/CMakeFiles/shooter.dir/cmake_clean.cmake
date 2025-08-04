@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/shooter.dir/src/Core/Camera.cpp.o"
+  "CMakeFiles/shooter.dir/src/Core/Camera.cpp.o.d"
+  "CMakeFiles/shooter.dir/src/Core/Game.cpp.o"
+  "CMakeFiles/shooter.dir/src/Core/Game.cpp.o.d"
+  "CMakeFiles/shooter.dir/src/Core/Window.cpp.o"
+  "CMakeFiles/shooter.dir/src/Core/Window.cpp.o.d"
+  "CMakeFiles/shooter.dir/src/GameObjects/Cube.cpp.o"
+  "CMakeFiles/shooter.dir/src/GameObjects/Cube.cpp.o.d"
+  "CMakeFiles/shooter.dir/src/GameObjects/Floor.cpp.o"
+  "CMakeFiles/shooter.dir/src/GameObjects/Floor.cpp.o.d"
+  "CMakeFiles/shooter.dir/src/OpenGL/Debug.cpp.o"
+  "CMakeFiles/shooter.dir/src/OpenGL/Debug.cpp.o.d"
+  "CMakeFiles/shooter.dir/src/OpenGL/IndexBuffer.cpp.o"
+  "CMakeFiles/shooter.dir/src/OpenGL/IndexBuffer.cpp.o.d"
+  "CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.o"
+  "CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.o.d"
+  "CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.o"
+  "CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.o.d"
+  "CMakeFiles/shooter.dir/src/OpenGL/VertexArray.cpp.o"
+  "CMakeFiles/shooter.dir/src/OpenGL/VertexArray.cpp.o.d"
+  "CMakeFiles/shooter.dir/src/OpenGL/VertexBuffer.cpp.o"
+  "CMakeFiles/shooter.dir/src/OpenGL/VertexBuffer.cpp.o.d"
+  "CMakeFiles/shooter.dir/src/main.cpp.o"
+  "CMakeFiles/shooter.dir/src/main.cpp.o.d"
+  "shooter"
+  "shooter.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/shooter.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

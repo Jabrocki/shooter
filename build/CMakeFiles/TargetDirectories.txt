@@ -1,0 +1,4 @@
+/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles/shooter.dir
+/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles/glad.dir
+/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles/edit_cache.dir
+/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles/rebuild_cache.dir
