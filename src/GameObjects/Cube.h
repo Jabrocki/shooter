@@ -16,15 +16,10 @@ public:
     Cube();
     ~Cube();
 
-    void Update(float deltaTime);
-    void Draw(glm::mat4 view, glm::mat4 projection);
+    void Draw();
 private:
-    glm::vec3 m_Position = glm::vec3(0.0f, 5.0f, -3.0f);
-    glm::vec3 m_Velocity = glm::vec3(0.0, 0.0, 0.0);
+    glm::vec3 m_Position = glm::vec3(0.0f, 1.0f, 0.0f);
     glm::mat4 m_Model = glm::mat4(1.0f);
-    
-    float m_Gravity = -9.81f; // Gravity acceleration (m/s²)
-    float m_GroundLevel = 0.0f; // Floor level
 
     VertexBuffer* m_VBO = nullptr;
     VertexBufferLayout* m_layout = nullptr;

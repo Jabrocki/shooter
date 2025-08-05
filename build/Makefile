@@ -287,6 +287,30 @@ src/GameObjects/Floor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/GameObjects/Floor.cpp.s
 .PHONY : src/GameObjects/Floor.cpp.s
 
+src/GameObjects/Light.o: src/GameObjects/Light.cpp.o
+.PHONY : src/GameObjects/Light.o
+
+# target to build an object file
+src/GameObjects/Light.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/GameObjects/Light.cpp.o
+.PHONY : src/GameObjects/Light.cpp.o
+
+src/GameObjects/Light.i: src/GameObjects/Light.cpp.i
+.PHONY : src/GameObjects/Light.i
+
+# target to preprocess a source file
+src/GameObjects/Light.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/GameObjects/Light.cpp.i
+.PHONY : src/GameObjects/Light.cpp.i
+
+src/GameObjects/Light.s: src/GameObjects/Light.cpp.s
+.PHONY : src/GameObjects/Light.s
+
+# target to generate assembly for a file
+src/GameObjects/Light.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/GameObjects/Light.cpp.s
+.PHONY : src/GameObjects/Light.cpp.s
+
 src/OpenGL/Debug.o: src/OpenGL/Debug.cpp.o
 .PHONY : src/OpenGL/Debug.o
 
@@ -382,6 +406,30 @@ src/OpenGL/Texture.s: src/OpenGL/Texture.cpp.s
 src/OpenGL/Texture.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.s
 .PHONY : src/OpenGL/Texture.cpp.s
+
+src/OpenGL/UniformBuffer.o: src/OpenGL/UniformBuffer.cpp.o
+.PHONY : src/OpenGL/UniformBuffer.o
+
+# target to build an object file
+src/OpenGL/UniformBuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.o
+.PHONY : src/OpenGL/UniformBuffer.cpp.o
+
+src/OpenGL/UniformBuffer.i: src/OpenGL/UniformBuffer.cpp.i
+.PHONY : src/OpenGL/UniformBuffer.i
+
+# target to preprocess a source file
+src/OpenGL/UniformBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.i
+.PHONY : src/OpenGL/UniformBuffer.cpp.i
+
+src/OpenGL/UniformBuffer.s: src/OpenGL/UniformBuffer.cpp.s
+.PHONY : src/OpenGL/UniformBuffer.s
+
+# target to generate assembly for a file
+src/OpenGL/UniformBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.s
+.PHONY : src/OpenGL/UniformBuffer.cpp.s
 
 src/OpenGL/VertexArray.o: src/OpenGL/VertexArray.cpp.o
 .PHONY : src/OpenGL/VertexArray.o
@@ -483,6 +531,9 @@ help:
 	@echo "... src/GameObjects/Floor.o"
 	@echo "... src/GameObjects/Floor.i"
 	@echo "... src/GameObjects/Floor.s"
+	@echo "... src/GameObjects/Light.o"
+	@echo "... src/GameObjects/Light.i"
+	@echo "... src/GameObjects/Light.s"
 	@echo "... src/OpenGL/Debug.o"
 	@echo "... src/OpenGL/Debug.i"
 	@echo "... src/OpenGL/Debug.s"
@@ -495,6 +546,9 @@ help:
 	@echo "... src/OpenGL/Texture.o"
 	@echo "... src/OpenGL/Texture.i"
 	@echo "... src/OpenGL/Texture.s"
+	@echo "... src/OpenGL/UniformBuffer.o"
+	@echo "... src/OpenGL/UniformBuffer.i"
+	@echo "... src/OpenGL/UniformBuffer.s"
 	@echo "... src/OpenGL/VertexArray.o"
 	@echo "... src/OpenGL/VertexArray.i"
 	@echo "... src/OpenGL/VertexArray.s"

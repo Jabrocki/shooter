@@ -12,7 +12,7 @@ public:
     Floor();
     ~Floor();
 
-    void Draw(glm::mat4 view, glm::mat4 projection);
+    void Draw();
 private:
     VertexBuffer* m_VBO = nullptr;
     VertexBufferLayout* m_layout = nullptr;

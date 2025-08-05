@@ -37,6 +37,12 @@
 },
 {
   "directory": "/Users/jabrooo/Documents/workspace/shooter_png/build",
+  "command": "/usr/bin/clang++  -I/Users/jabrooo/Documents/workspace/shooter_png/external/glad/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glfw-3.4/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/stb_image/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glm/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/shooter.dir/src/GameObjects/Light.cpp.o -c /Users/jabrooo/Documents/workspace/shooter_png/src/GameObjects/Light.cpp",
+  "file": "/Users/jabrooo/Documents/workspace/shooter_png/src/GameObjects/Light.cpp",
+  "output": "CMakeFiles/shooter.dir/src/GameObjects/Light.cpp.o"
+},
+{
+  "directory": "/Users/jabrooo/Documents/workspace/shooter_png/build",
   "command": "/usr/bin/clang++  -I/Users/jabrooo/Documents/workspace/shooter_png/external/glad/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glfw-3.4/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/stb_image/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glm/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/shooter.dir/src/OpenGL/Debug.cpp.o -c /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/Debug.cpp",
   "file": "/Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/Debug.cpp",
   "output": "CMakeFiles/shooter.dir/src/OpenGL/Debug.cpp.o"
@@ -58,6 +64,12 @@
   "command": "/usr/bin/clang++  -I/Users/jabrooo/Documents/workspace/shooter_png/external/glad/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glfw-3.4/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/stb_image/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glm/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.o -c /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/Texture.cpp",
   "file": "/Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/Texture.cpp",
   "output": "CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.o"
+},
+{
+  "directory": "/Users/jabrooo/Documents/workspace/shooter_png/build",
+  "command": "/usr/bin/clang++  -I/Users/jabrooo/Documents/workspace/shooter_png/external/glad/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glfw-3.4/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/stb_image/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glm/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.o -c /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/UniformBuffer.cpp",
+  "file": "/Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/UniformBuffer.cpp",
+  "output": "CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.o"
 },
 {
   "directory": "/Users/jabrooo/Documents/workspace/shooter_png/build",

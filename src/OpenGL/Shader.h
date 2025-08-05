@@ -15,8 +15,12 @@ public:
 
     //Set uniforms
     void SetUniform4f(const std::string& name, float f0, float f1, float f2, float f3);
-    void SetUnifrom1i(const std::string& name, int i0);
+    void SetUniform1i(const std::string& name, int i0);
+    
     void SetUniformMat4f(const std::string& name, const glm::mat4& mat4f);
+    void SetUniformVec3f(const std::string& name, const glm::vec3& vec3f);
+    void SetUniformVec4f(const std::string& name, const glm::vec4& vec4f);
+
 private:
     unsigned int m_RendererID;
     std::string m_VertexPath;

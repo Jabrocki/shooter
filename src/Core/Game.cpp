@@ -1,11 +1,13 @@
 #include "Game.h"
 
 // GameObjects
-#include "../GameObjects/Floor.h"
 #include "../GameObjects/Cube.h"
+#include "../GameObjects/Light.h"
 
 // OpenGL
 #include "../OpenGL/Debug.h"
+#include "../OpenGL/UniformBufferLayout.h"
+#include "../OpenGL/UniformBuffer.h"
 
 #include <iostream>
 #include <glm/glm.hpp>
@@ -41,11 +43,24 @@ void Game::Init()
 
 void Game::Run()
 {
-    Floor floor;
     Cube cube;
+    Light light;
+    UniformBufferLayout layout;
+    layout.Push<glm::mat4>("uView");
+    layout.Push<glm::mat4>("uProjection");
+    layout.Push<glm::vec3>("uViewPosition");
+    layout.Push<glm::vec3>("uLightPosition");
+
+    UniformBuffer UBO(layout);
+    UBO.Bind();
 
     while (!m_Window->ShouldClose())
     {
+        //Set Globals
+        UBO.SetUniformMat4f("uView", m_Camera.GetViewMatrix());
+        UBO.SetUniformMat4f("uProjection", projection);
+        UBO.SetUniformVec3f("uViewPosition", m_Camera.GetPosition());
+        UBO.SetUniformVec3f("uLightPosition", light.getPosition());
         float currentTime = glfwGetTime();
         m_DeltaTime = currentTime - m_LastFrame;
         m_LastFrame = currentTime;
@@ -56,9 +71,9 @@ void Game::Run()
         Clear();
         Draw();
 
-        floor.Draw(m_Camera.GetViewMatrix(), projection);
-        cube.Update(m_DeltaTime);
-        cube.Draw(m_Camera.GetViewMatrix(), projection);
+        cube.Draw();
+        light.Draw();
+        light.Update(m_DeltaTime);
 
         m_Window->SwapBuffers();
     }
@@ -108,7 +123,7 @@ void Game::Update(float deltaTime)
 
 void Game::Clear()
 {
-    GLCall(glClearColor(0.2f, 0.3f, 0.3f, 1.0f));
+    GLCall(glClearColor(0.0f, 0.0f, 0.0f, 1.0f));
     GLCall(glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT));
 }
 

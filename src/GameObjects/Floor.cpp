@@ -45,7 +45,7 @@ Floor::~Floor()
     delete m_texture;
 }
 
-void Floor::Draw(glm::mat4 view, glm::mat4 projection)
+void Floor::Draw()
 {
     glm::mat4 model = glm::mat4(1.0f);
 
@@ -53,12 +53,9 @@ void Floor::Draw(glm::mat4 view, glm::mat4 projection)
     m_shader->Bind();
     
     // Set uniforms after shader is bound
-    m_shader->SetUnifrom1i("uTexture", 1);
+    m_shader->SetUniform1i("uTexture", 1);
     m_shader->SetUniformMat4f("uModel", model);
 
-    //TODO use UBO some day
-    m_shader->SetUniformMat4f("uView", view);
-    m_shader->SetUniformMat4f("uProjection", projection);
     
     // Bind vertex data and texture
     m_VAO->Bind();
