@@ -17,6 +17,7 @@ public:
     ~Cube();
 
     void Draw();
+    Shader* shader = nullptr;
 private:
     glm::vec3 m_Position = glm::vec3(0.0f, 1.0f, 0.0f);
     glm::mat4 m_Model = glm::mat4(1.0f);
@@ -25,7 +26,7 @@ private:
     VertexBufferLayout* m_layout = nullptr;
     VertexArray* m_VAO = nullptr;
 
-    Shader* m_shader = nullptr;
+    
     Texture* m_texture = nullptr;
 };
 

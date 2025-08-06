@@ -89,6 +89,12 @@ void Shader::SetUniform1i(const std::string& name, int i0)
     GLCall(glUniform1i(location, i0));
 }
 
+void Shader::SetUniform1f(const std::string& name, float f0)
+{
+    int location = GetUniformLocation(name);
+    GLCall(glUniform1f(location, f0));
+}
+
 void Shader::SetUniformMat4f(const std::string& name,const glm::mat4& mat4f) 
 {
     int location = GetUniformLocation(name);

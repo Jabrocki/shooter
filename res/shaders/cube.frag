@@ -12,28 +12,47 @@ layout(std140) uniform Globals
     mat4 uView;
     mat4 uProjection;
     vec3 uViewPosition;
-    vec3 uLightPosition;
 };
 
+//Material
+struct Material {
+    vec3 ambient;
+    vec3 diffuse;
+    vec3 specular;
+    float shininess;
+};
 
+uniform Material uMaterial;
 
+//Light
+struct Light {
+    vec3 position;
+    vec3 ambient;
+    vec3 diffuse;
+    vec3 specular;
+};
+
+uniform Light uLight;
+
+//Texture
 uniform sampler2D uTexture;
-uniform vec3 uLightColor;
+
+
+
 
 void main() {
-    float ambientStrength = 0.1;
-    vec3 ambient = ambientStrength * uLightColor;
+
+    vec3 ambient = uLight.ambient * uMaterial.ambient;
 
     vec3 norm = normalize(Normal);
-    vec3 lightDir = normalize(uLightPosition - FragPos);
+    vec3 lightDir = normalize(uLight.position - FragPos);
     float diff = max(dot(norm, lightDir), 0.0);
-    vec3 diffuse = diff * uLightColor;
+    vec3 diffuse = uLight.diffuse * (diff * uMaterial.diffuse);
 
-    float specularStrength = 0.5;
     vec3 viewDir = normalize(uViewPosition - FragPos);
     vec3 reflectDir = reflect(-lightDir, norm);
-    float spec = pow(max(dot(viewDir, reflectDir), 0.0), 64);
-    vec3 specular = specularStrength * spec * uLightColor;
+    float spec = pow(max(dot(viewDir, reflectDir), 0.0), uMaterial.shininess);
+    vec3 specular = uLight.specular * (spec * uMaterial.specular);
 
     vec3 light = ambient + diffuse + specular;
     vec4 result = vec4(light, 1.0);

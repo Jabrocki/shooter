@@ -75,7 +75,7 @@ Cube::Cube()
     m_VAO = new VertexArray();
     m_VAO->AddBuffer(*m_VBO, *m_layout);
 
-    m_shader = new Shader("res/shaders/cube.vert", "res/shaders/cube.frag");
+    shader = new Shader("res/shaders/cube.vert", "res/shaders/cube.frag");
     m_texture = new Texture("res/textures/floor.jpg");
 }
 
@@ -85,20 +85,26 @@ Cube::~Cube()
     delete m_VBO;
     delete m_VAO;
 
-    delete m_shader;
+    delete shader;
     delete m_texture;
 }
 
 void Cube::Draw()
 {
-    m_shader->Bind();
+    shader->Bind();
 
     // Set uniforms after shader is bound
-    m_shader->SetUniform1i("uTexture", 0);
-    m_shader->SetUniformMat4f("uModel", m_Model);
+    shader->SetUniform1i("uTexture", 0);
+    shader->SetUniformMat4f("uModel", m_Model);
 
-    glm::vec3 lightColor = glm::vec3(1.0f, 1.0f, 1.0f);
-    m_shader->SetUniformVec3f("uLightColor", lightColor);
+    //Material
+    shader->SetUniformVec3f("uMaterial.ambient", glm::vec3(0.4f, 0.4f, 0.4f));
+    shader->SetUniformVec3f("uMaterial.diffuse", glm::vec3(0.7f, 0.7f, 0.7f));
+    shader->SetUniformVec3f("uMaterial.specular", glm::vec3(1.0f, 1.0f, 1.0f));
+    shader->SetUniform1f("uMaterial.shininess", 32.0f);
+
+    //Lighting 
+    //TODO: make global objects with shader pointers
 
 
     m_VAO->Bind();

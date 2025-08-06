@@ -10,7 +10,6 @@ layout(std140) uniform Globals
     mat4 uView;
     mat4 uProjection;
     vec3 uViewPosition;
-    vec3 uLightPosition;
 };
 
 uniform mat4 uModel;

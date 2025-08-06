@@ -46,10 +46,10 @@ void Game::Run()
     Cube cube;
     Light light;
     UniformBufferLayout layout;
+
     layout.Push<glm::mat4>("uView");
     layout.Push<glm::mat4>("uProjection");
     layout.Push<glm::vec3>("uViewPosition");
-    layout.Push<glm::vec3>("uLightPosition");
 
     UniformBuffer UBO(layout);
     UBO.Bind();
@@ -60,7 +60,7 @@ void Game::Run()
         UBO.SetUniformMat4f("uView", m_Camera.GetViewMatrix());
         UBO.SetUniformMat4f("uProjection", projection);
         UBO.SetUniformVec3f("uViewPosition", m_Camera.GetPosition());
-        UBO.SetUniformVec3f("uLightPosition", light.getPosition());
+
         float currentTime = glfwGetTime();
         m_DeltaTime = currentTime - m_LastFrame;
         m_LastFrame = currentTime;
@@ -70,6 +70,13 @@ void Game::Run()
         Update(m_DeltaTime);
         Clear();
         Draw();
+
+        // Set light uniforms before drawing the cube
+        cube.shader->Bind();
+        cube.shader->SetUniformVec3f("uLight.position", light.getPosition());
+        cube.shader->SetUniformVec3f("uLight.ambient", glm::vec3(0.2f, 0.2f, 0.2f));
+        cube.shader->SetUniformVec3f("uLight.diffuse", glm::vec3(0.5f, 0.5f, 0.5f));
+        cube.shader->SetUniformVec3f("uLight.specular", glm::vec3(1.0f, 1.0f, 1.0f));
 
         cube.Draw();
         light.Draw();
