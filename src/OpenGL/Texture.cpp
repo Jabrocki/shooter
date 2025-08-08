@@ -13,7 +13,21 @@ Texture::Texture(const std::string &path)
     stbi_set_flip_vertically_on_load(1);
     m_LocalBuffer = stbi_load(path.c_str(), &m_Width, &m_Height, &m_BPP, 4);
 
+    if (!m_LocalBuffer)
+    {
+        std::cerr << "[Texture] Failed to load image: " << path << "\n";
+        return;
+    }
+
     GLCall(glGenTextures(1, &m_RendererID));
+    if (m_RendererID == 0)
+    {
+        std::cerr << "[Texture] glGenTextures returned 0 for: " << path << "\n";
+        stbi_image_free(m_LocalBuffer);
+        m_LocalBuffer = nullptr;
+        return;
+    }
+    
     GLCall(glBindTexture(GL_TEXTURE_2D, m_RendererID));
 
     GLCall(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR));

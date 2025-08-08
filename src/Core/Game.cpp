@@ -10,6 +10,8 @@
 #include "../OpenGL/UniformBuffer.h"
 
 #include <iostream>
+#include <vector>
+#include <memory>
 #include <glm/glm.hpp>
 #include <glm/ext/matrix_clip_space.hpp>
 #include <glm/ext/matrix_transform.hpp>
@@ -26,14 +28,16 @@ void Game::Init()
     m_Window = std::make_unique<Window>(SCR_WIDTH, SCR_HEIGHT, "Game");
 
     // Mouse input
-    m_Window->mouseMoveCallback = [this](double xpos, double ypos) {
+    m_Window->mouseMoveCallback = [this](double xpos, double ypos)
+    {
         this->OnMouseMove(xpos, ypos);
     };
 
     // Capture mouse
     glfwSetInputMode(m_Window->GetNativeWindow(), GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
-    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
+    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
+    {
         std::cerr << "Failed to initialize GLAD" << std::endl;
         std::exit(1);
     }
@@ -43,7 +47,53 @@ void Game::Init()
 
 void Game::Run()
 {
-    Cube cube;
+    Shader cubeShader("res/shaders/cube.vert", "res/shaders/cube.frag");
+
+    // Create 10 cubes with example values using unique_ptr
+    std::vector<std::unique_ptr<Cube>> cubes;
+
+    // Cube positions, rotations (in radians), and scales
+    glm::vec3 positions[10] = {
+        glm::vec3(0.0f, 0.0f, -3.0f),
+        glm::vec3(2.5f, 1.0f, -5.0f),
+        glm::vec3(-3.0f, -1.5f, -4.0f),
+        glm::vec3(1.0f, 3.0f, -6.0f),
+        glm::vec3(-2.0f, 2.0f, -2.5f),
+        glm::vec3(4.0f, -2.0f, -7.0f),
+        glm::vec3(-1.5f, 0.5f, -3.5f),
+        glm::vec3(3.5f, -1.0f, -4.5f),
+        glm::vec3(-4.0f, 1.5f, -5.5f),
+        glm::vec3(0.5f, -3.0f, -6.5f)};
+
+    glm::vec3 rotations[10] = {
+        glm::vec3(0.0f, 0.0f, 0.0f),
+        glm::vec3(0.5f, 1.2f, 0.3f),
+        glm::vec3(1.0f, 0.8f, 2.1f),
+        glm::vec3(0.7f, 2.5f, 1.4f),
+        glm::vec3(1.8f, 0.4f, 0.9f),
+        glm::vec3(2.2f, 1.7f, 0.6f),
+        glm::vec3(0.3f, 3.0f, 1.1f),
+        glm::vec3(1.5f, 0.2f, 2.8f),
+        glm::vec3(2.7f, 1.9f, 0.1f),
+        glm::vec3(0.9f, 2.3f, 1.6f)};
+
+    glm::vec3 scales[10] = {
+        glm::vec3(1.0f, 1.0f, 1.0f),
+        glm::vec3(0.8f, 1.2f, 0.9f),
+        glm::vec3(1.5f, 0.7f, 1.1f),
+        glm::vec3(0.6f, 0.6f, 0.6f),
+        glm::vec3(1.3f, 1.3f, 1.3f),
+        glm::vec3(0.9f, 1.8f, 0.5f),
+        glm::vec3(1.7f, 0.4f, 1.6f),
+        glm::vec3(0.5f, 1.0f, 2.0f),
+        glm::vec3(1.1f, 0.8f, 0.7f),
+        glm::vec3(1.4f, 1.6f, 0.9f)};
+
+    for (int i = 0; i < 10; ++i)
+    {
+        cubes.push_back(std::make_unique<Cube>(positions[i], rotations[i], scales[i], &cubeShader));
+    }
+
     Light light;
     UniformBufferLayout layout;
 
@@ -56,7 +106,7 @@ void Game::Run()
 
     while (!m_Window->ShouldClose())
     {
-        //Set Globals
+        // Set Globals
         UBO.SetUniformMat4f("uView", m_Camera.GetViewMatrix());
         UBO.SetUniformMat4f("uProjection", projection);
         UBO.SetUniformVec3f("uViewPosition", m_Camera.GetPosition());
@@ -68,17 +118,29 @@ void Game::Run()
         m_Window->PollEvents();
         ProcessInput();
         Update(m_DeltaTime);
+
+        
+
         Clear();
         Draw();
-
         // Set light uniforms before drawing the cube
-        cube.shader->Bind();
-        cube.shader->SetUniformVec3f("uLight.position", light.getPosition());
-        cube.shader->SetUniformVec3f("uLight.ambient", glm::vec3(0.2f, 0.2f, 0.2f));
-        cube.shader->SetUniformVec3f("uLight.diffuse", glm::vec3(0.5f, 0.5f, 0.5f));
-        cube.shader->SetUniformVec3f("uLight.specular", glm::vec3(1.0f, 1.0f, 1.0f));
+        cubeShader.Bind();
 
-        cube.Draw();
+        cubeShader.SetUniformVec3f("uLight.position", light.getPosition());
+        cubeShader.SetUniformVec3f("uLight.ambient", glm::vec3(0.4f, 0.4f, 0.4f));
+        cubeShader.SetUniformVec3f("uLight.diffuse", glm::vec3(0.8f, 0.8f, 0.8f));
+        cubeShader.SetUniformVec3f("uLight.specular", glm::vec3(1.0f, 1.0f, 1.0f));
+
+        cubeShader.SetUniform1f("uLight.constant", 1.0f);
+        cubeShader.SetUniform1f("uLight.linear", 0.09f);
+        cubeShader.SetUniform1f("uLight.quadratic", 0.032f);
+
+        // Draw all cubes
+        for (auto &cube : cubes)
+        {
+            cube->Draw();
+        }
+
         light.Draw();
         light.Update(m_DeltaTime);
 
@@ -115,7 +177,7 @@ void Game::OnMouseMove(double xpos, double ypos)
     }
 
     float xoffset = xpos - m_LastX;
-    float yoffset = m_LastY - ypos;  // reversed: y goes from bottom to top
+    float yoffset = m_LastY - ypos; // reversed: y goes from bottom to top
 
     m_LastX = xpos;
     m_LastY = ypos;

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/clang
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/jabrooo/Documents/workspace/shooter_png/external/glad/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glfw-3.4/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/stb_image/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glm/include
+C_INCLUDES = -I/Users/jabrooo/Documents/workspace/shooter_png/external/glad/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glfw-3.4/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/stb_image/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glm/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include
 
 C_FLAGSarm64 = -g -arch arm64
 

@@ -10,6 +10,7 @@ include_directories(
     external/glfw-3.4/include
     external/stb_image/include
     external/glm/include
+    external/assimp/include
 )
 
 #myapp
@@ -39,7 +40,10 @@ add_library(glad STATIC external/glad/src/glad.c)
 #GLM
 find_package(glm CONFIG REQUIRED)
 
-target_link_libraries(shooter glfw glad glm::glm)
+#Assimp
+find_package(assimp CONFIG REQUIRED)
+
+target_link_libraries(shooter glfw glad glm::glm assimp::assimp)
 
 
 #GLFW expectcs these packages for MACOS

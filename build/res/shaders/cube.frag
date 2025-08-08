@@ -16,9 +16,8 @@ layout(std140) uniform Globals
 
 //Material
 struct Material {
-    vec3 ambient;
-    vec3 diffuse;
-    vec3 specular;
+    sampler2D diffuse;
+    sampler2D specular;
     float shininess;
 };
 
@@ -27,35 +26,45 @@ uniform Material uMaterial;
 //Light
 struct Light {
     vec3 position;
+
     vec3 ambient;
     vec3 diffuse;
     vec3 specular;
+
+    float constant;
+    float linear;
+    float quadratic;
 };
 
 uniform Light uLight;
 
-//Texture
-uniform sampler2D uTexture;
-
-
-
 
 void main() {
-
-    vec3 ambient = uLight.ambient * uMaterial.ambient;
-
+    //Ambient
+    vec3 ambient = uLight.ambient * vec3(texture(uMaterial.diffuse, TexCoord));
+    
+    //Diffuse
     vec3 norm = normalize(Normal);
     vec3 lightDir = normalize(uLight.position - FragPos);
     float diff = max(dot(norm, lightDir), 0.0);
-    vec3 diffuse = uLight.diffuse * (diff * uMaterial.diffuse);
+    vec3 diffuse = uLight.diffuse * diff * vec3(texture(uMaterial.diffuse, TexCoord));
 
+    //Specular
     vec3 viewDir = normalize(uViewPosition - FragPos);
     vec3 reflectDir = reflect(-lightDir, norm);
     float spec = pow(max(dot(viewDir, reflectDir), 0.0), uMaterial.shininess);
-    vec3 specular = uLight.specular * (spec * uMaterial.specular);
+    vec3 specular = uLight.specular * spec * vec3(texture(uMaterial.specular, TexCoord));
+
+    //Calc distance
+    float dist = length(uLight.position - FragPos);
+    float attenutaion = 1.0 / (uLight.constant + uLight.linear * dist + uLight.quadratic * (dist * dist));
+
+    ambient *= attenutaion;
+    diffuse *= attenutaion;
+    specular *= attenutaion;
 
     vec3 light = ambient + diffuse + specular;
     vec4 result = vec4(light, 1.0);
 
-    FragColor = texture(uTexture, TexCoord) * result;
+    FragColor = result;
 }

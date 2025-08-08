@@ -2,31 +2,38 @@
 
 #include <glm/glm.hpp>
 
+// ECS
+#include "../ECS/Components/Transform.h"
 
+// OpenGL
 #include "../OpenGL/Texture.h"
 #include "../OpenGL/Shader.h"
 #include "../OpenGL/VertexBuffer.h"
 #include "../OpenGL/VertexBufferLayout.h"
 #include "../OpenGL/VertexArray.h"
 
-
 class Cube
 {
 public:
-    Cube();
-    ~Cube();
+    Cube(
+        glm::vec3 position,
+        glm::vec3 rotation,
+        glm::vec3 scale,
+        Shader *shader
+    );
+
+    ~Cube() {};
 
     void Draw();
-    Shader* shader = nullptr;
+
+    Shader *shader = nullptr;
+
 private:
-    glm::vec3 m_Position = glm::vec3(0.0f, 1.0f, 0.0f);
-    glm::mat4 m_Model = glm::mat4(1.0f);
+    Transform m_Transform;
+    VertexBuffer m_VBO;
+    VertexBufferLayout m_layout;
+    VertexArray m_VAO;
 
-    VertexBuffer* m_VBO = nullptr;
-    VertexBufferLayout* m_layout = nullptr;
-    VertexArray* m_VAO = nullptr;
-
-    
-    Texture* m_texture = nullptr;
+    Texture m_diffuse;
+    Texture m_specular;
 };
-
