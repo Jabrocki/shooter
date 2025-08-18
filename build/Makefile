@@ -239,6 +239,30 @@ src/Core/Window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Window.cpp.s
 .PHONY : src/Core/Window.cpp.s
 
+src/ECS/Components/Mesh.o: src/ECS/Components/Mesh.cpp.o
+.PHONY : src/ECS/Components/Mesh.o
+
+# target to build an object file
+src/ECS/Components/Mesh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/Mesh.cpp.o
+.PHONY : src/ECS/Components/Mesh.cpp.o
+
+src/ECS/Components/Mesh.i: src/ECS/Components/Mesh.cpp.i
+.PHONY : src/ECS/Components/Mesh.i
+
+# target to preprocess a source file
+src/ECS/Components/Mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/Mesh.cpp.i
+.PHONY : src/ECS/Components/Mesh.cpp.i
+
+src/ECS/Components/Mesh.s: src/ECS/Components/Mesh.cpp.s
+.PHONY : src/ECS/Components/Mesh.s
+
+# target to generate assembly for a file
+src/ECS/Components/Mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/Mesh.cpp.s
+.PHONY : src/ECS/Components/Mesh.cpp.s
+
 src/ECS/Components/Transform.o: src/ECS/Components/Transform.cpp.o
 .PHONY : src/ECS/Components/Transform.o
 
@@ -262,54 +286,6 @@ src/ECS/Components/Transform.s: src/ECS/Components/Transform.cpp.s
 src/ECS/Components/Transform.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/Transform.cpp.s
 .PHONY : src/ECS/Components/Transform.cpp.s
-
-src/ECS/Mesh.o: src/ECS/Mesh.cpp.o
-.PHONY : src/ECS/Mesh.o
-
-# target to build an object file
-src/ECS/Mesh.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Mesh.cpp.o
-.PHONY : src/ECS/Mesh.cpp.o
-
-src/ECS/Mesh.i: src/ECS/Mesh.cpp.i
-.PHONY : src/ECS/Mesh.i
-
-# target to preprocess a source file
-src/ECS/Mesh.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Mesh.cpp.i
-.PHONY : src/ECS/Mesh.cpp.i
-
-src/ECS/Mesh.s: src/ECS/Mesh.cpp.s
-.PHONY : src/ECS/Mesh.s
-
-# target to generate assembly for a file
-src/ECS/Mesh.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Mesh.cpp.s
-.PHONY : src/ECS/Mesh.cpp.s
-
-src/ECS/Model.o: src/ECS/Model.cpp.o
-.PHONY : src/ECS/Model.o
-
-# target to build an object file
-src/ECS/Model.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Model.cpp.o
-.PHONY : src/ECS/Model.cpp.o
-
-src/ECS/Model.i: src/ECS/Model.cpp.i
-.PHONY : src/ECS/Model.i
-
-# target to preprocess a source file
-src/ECS/Model.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Model.cpp.i
-.PHONY : src/ECS/Model.cpp.i
-
-src/ECS/Model.s: src/ECS/Model.cpp.s
-.PHONY : src/ECS/Model.s
-
-# target to generate assembly for a file
-src/ECS/Model.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Model.cpp.s
-.PHONY : src/ECS/Model.cpp.s
 
 src/GameObjects/Cube.o: src/GameObjects/Cube.cpp.o
 .PHONY : src/GameObjects/Cube.o
@@ -597,15 +573,12 @@ help:
 	@echo "... src/Core/Window.o"
 	@echo "... src/Core/Window.i"
 	@echo "... src/Core/Window.s"
+	@echo "... src/ECS/Components/Mesh.o"
+	@echo "... src/ECS/Components/Mesh.i"
+	@echo "... src/ECS/Components/Mesh.s"
 	@echo "... src/ECS/Components/Transform.o"
 	@echo "... src/ECS/Components/Transform.i"
 	@echo "... src/ECS/Components/Transform.s"
-	@echo "... src/ECS/Mesh.o"
-	@echo "... src/ECS/Mesh.i"
-	@echo "... src/ECS/Mesh.s"
-	@echo "... src/ECS/Model.o"
-	@echo "... src/ECS/Model.i"
-	@echo "... src/ECS/Model.s"
 	@echo "... src/GameObjects/Cube.o"
 	@echo "... src/GameObjects/Cube.i"
 	@echo "... src/GameObjects/Cube.s"

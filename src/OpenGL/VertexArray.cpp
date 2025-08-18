@@ -17,6 +17,11 @@ void VertexArray::Bind() const
     GLCall(glBindVertexArray(m_RendererID));
 }
 
+void VertexArray::UnBind() const
+{
+    GLCall(glBindVertexArray(0));
+}
+
 
 
 void VertexArray::AddBuffer(const VertexBuffer& VBO, const VertexBufferLayout& layout) 

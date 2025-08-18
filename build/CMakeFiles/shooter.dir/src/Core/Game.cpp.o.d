@@ -1204,13 +1204,14 @@ CMakeFiles/shooter.dir/src/Core/Game.cpp.o: \
   /Users/jabrooo/Documents/workspace/shooter_png/external/glm/include/glm/gtc/epsilon.inl \
   /Users/jabrooo/Documents/workspace/shooter_png/external/glm/include/glm/gtc/../vector_relational.hpp \
   /Users/jabrooo/Documents/workspace/shooter_png/external/glm/include/glm/gtc/../common.hpp \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../OpenGL/Texture.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../OpenGL/Shader.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../OpenGL/VertexBuffer.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../OpenGL/VertexBufferLayout.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../OpenGL/VertexArray.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/Light.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/Debug.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../ECS/Components/Mesh.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../ECS/Components/../../OpenGL/Texture.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../ECS/Components/../../OpenGL/VertexArray.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../ECS/Components/../../OpenGL/VertexBuffer.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../ECS/Components/../../OpenGL/VertexBufferLayout.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../ECS/Components/../../OpenGL/IndexBuffer.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../ECS/Components/../../OpenGL/Shader.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../ECS/Components/../../OpenGL/Debug.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
@@ -1240,6 +1241,13 @@ CMakeFiles/shooter.dir/src/Core/Game.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../OpenGL/Texture.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../OpenGL/Shader.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/Light.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../OpenGL/VertexBuffer.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../OpenGL/VertexBufferLayout.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../OpenGL/VertexArray.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/Debug.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/UniformBufferLayout.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/UniformBuffer.h \
   /Users/jabrooo/Documents/workspace/shooter_png/external/glm/include/glm/ext/matrix_clip_space.hpp \

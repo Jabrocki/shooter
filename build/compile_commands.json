@@ -25,21 +25,15 @@
 },
 {
   "directory": "/Users/jabrooo/Documents/workspace/shooter_png/build",
+  "command": "/usr/bin/clang++  -I/Users/jabrooo/Documents/workspace/shooter_png/external/glad/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glfw-3.4/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/stb_image/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glm/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/shooter.dir/src/ECS/Components/Mesh.cpp.o -c /Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/Mesh.cpp",
+  "file": "/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/Mesh.cpp",
+  "output": "CMakeFiles/shooter.dir/src/ECS/Components/Mesh.cpp.o"
+},
+{
+  "directory": "/Users/jabrooo/Documents/workspace/shooter_png/build",
   "command": "/usr/bin/clang++  -I/Users/jabrooo/Documents/workspace/shooter_png/external/glad/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glfw-3.4/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/stb_image/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glm/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/shooter.dir/src/ECS/Components/Transform.cpp.o -c /Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/Transform.cpp",
   "file": "/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/Transform.cpp",
   "output": "CMakeFiles/shooter.dir/src/ECS/Components/Transform.cpp.o"
-},
-{
-  "directory": "/Users/jabrooo/Documents/workspace/shooter_png/build",
-  "command": "/usr/bin/clang++  -I/Users/jabrooo/Documents/workspace/shooter_png/external/glad/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glfw-3.4/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/stb_image/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glm/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/shooter.dir/src/ECS/Mesh.cpp.o -c /Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Mesh.cpp",
-  "file": "/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Mesh.cpp",
-  "output": "CMakeFiles/shooter.dir/src/ECS/Mesh.cpp.o"
-},
-{
-  "directory": "/Users/jabrooo/Documents/workspace/shooter_png/build",
-  "command": "/usr/bin/clang++  -I/Users/jabrooo/Documents/workspace/shooter_png/external/glad/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glfw-3.4/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/stb_image/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glm/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/shooter.dir/src/ECS/Model.cpp.o -c /Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Model.cpp",
-  "file": "/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Model.cpp",
-  "output": "CMakeFiles/shooter.dir/src/ECS/Model.cpp.o"
 },
 {
   "directory": "/Users/jabrooo/Documents/workspace/shooter_png/build",

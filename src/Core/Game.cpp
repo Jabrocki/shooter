@@ -49,6 +49,9 @@ void Game::Run()
 {
     Shader cubeShader("res/shaders/cube.vert", "res/shaders/cube.frag");
 
+    // Initialize projection matrix
+    glm::mat4 projection = glm::perspective(glm::radians(45.0f), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
+
     // Create 10 cubes with example values using unique_ptr
     std::vector<std::unique_ptr<Cube>> cubes;
 

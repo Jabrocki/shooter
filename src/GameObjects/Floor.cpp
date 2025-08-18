@@ -33,7 +33,7 @@ Floor::Floor()
     m_VAO->AddBuffer(*m_VBO, *m_layout);
 
     m_shader = new Shader("res/shaders/test.vert", "res/shaders/test.frag");
-    m_texture = new Texture("res/textures/floor.jpg");
+    m_texture = new Texture("res/textures/floor.jpg", T_SPECULAR);
 }
 
 Floor::~Floor()

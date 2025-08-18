@@ -16,8 +16,8 @@ layout(std140) uniform Globals
 
 //Material
 struct Material {
-    sampler2D diffuse;
-    sampler2D specular;
+    sampler2D diffuse0;
+    sampler2D specular0;
     float shininess;
 };
 
@@ -41,19 +41,19 @@ uniform Light uLight;
 
 void main() {
     //Ambient
-    vec3 ambient = uLight.ambient * vec3(texture(uMaterial.diffuse, TexCoord));
+    vec3 ambient = uLight.ambient * vec3(texture(uMaterial.diffuse0, TexCoord));
     
     //Diffuse
     vec3 norm = normalize(Normal);
     vec3 lightDir = normalize(uLight.position - FragPos);
     float diff = max(dot(norm, lightDir), 0.0);
-    vec3 diffuse = uLight.diffuse * diff * vec3(texture(uMaterial.diffuse, TexCoord));
+    vec3 diffuse = uLight.diffuse * diff * vec3(texture(uMaterial.diffuse0, TexCoord));
 
     //Specular
     vec3 viewDir = normalize(uViewPosition - FragPos);
     vec3 reflectDir = reflect(-lightDir, norm);
     float spec = pow(max(dot(viewDir, reflectDir), 0.0), uMaterial.shininess);
-    vec3 specular = uLight.specular * spec * vec3(texture(uMaterial.specular, TexCoord));
+    vec3 specular = uLight.specular * spec * vec3(texture(uMaterial.specular0, TexCoord));
 
     //Calc distance
     float dist = length(uLight.position - FragPos);
