@@ -1,5 +1,9 @@
 #include "Game.h"
 
+//ECS
+#include "../ECS/Components/Model.h"
+
+
 // GameObjects
 #include "../GameObjects/Cube.h"
 #include "../GameObjects/Light.h"
@@ -49,8 +53,12 @@ void Game::Run()
 {
     Shader cubeShader("res/shaders/cube.vert", "res/shaders/cube.frag");
 
+    //Model
+    Model model("res/models/backpack/backpack.obj");
+    
     // Initialize projection matrix
     glm::mat4 projection = glm::perspective(glm::radians(45.0f), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
+
 
     // Create 10 cubes with example values using unique_ptr
     std::vector<std::unique_ptr<Cube>> cubes;
@@ -122,18 +130,14 @@ void Game::Run()
         ProcessInput();
         Update(m_DeltaTime);
 
-        
-
         Clear();
-        Draw();
-        // Set light uniforms before drawing the cube
+        
+        // Set light uniforms before drawing anything
         cubeShader.Bind();
-
         cubeShader.SetUniformVec3f("uLight.position", light.getPosition());
         cubeShader.SetUniformVec3f("uLight.ambient", glm::vec3(0.4f, 0.4f, 0.4f));
         cubeShader.SetUniformVec3f("uLight.diffuse", glm::vec3(0.8f, 0.8f, 0.8f));
         cubeShader.SetUniformVec3f("uLight.specular", glm::vec3(1.0f, 1.0f, 1.0f));
-
         cubeShader.SetUniform1f("uLight.constant", 1.0f);
         cubeShader.SetUniform1f("uLight.linear", 0.09f);
         cubeShader.SetUniform1f("uLight.quadratic", 0.032f);
@@ -143,6 +147,9 @@ void Game::Run()
         {
             cube->Draw();
         }
+
+        glm::mat4 identity = glm::mat4(1.0f);
+        model.Draw(cubeShader, identity);
 
         light.Draw();
         light.Update(m_DeltaTime);

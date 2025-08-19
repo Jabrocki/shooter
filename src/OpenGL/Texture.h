@@ -8,11 +8,12 @@ class Texture
 {
 private:
     unsigned int m_RendererID;
-    std::string m_FilePath;
     unsigned char* m_LocalBuffer;
     int m_Width, m_Height, m_BPP;
 public:
+    std::string filePath;
     std::string type;
+    
     Texture(
         const std::string& path,
         const std::string& type

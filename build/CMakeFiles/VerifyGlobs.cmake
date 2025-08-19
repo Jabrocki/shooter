@@ -33,6 +33,7 @@ set(OLD_GLOB
   "/Users/jabrooo/Documents/workspace/shooter_png/src/Core/Game.h"
   "/Users/jabrooo/Documents/workspace/shooter_png/src/Core/Window.h"
   "/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/Mesh.h"
+  "/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/Model.h"
   "/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/Transform.h"
   "/Users/jabrooo/Documents/workspace/shooter_png/src/GameObjects/Cube.h"
   "/Users/jabrooo/Documents/workspace/shooter_png/src/GameObjects/Floor.h"

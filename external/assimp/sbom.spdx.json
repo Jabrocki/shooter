@@ -3,9 +3,9 @@
   "spdxVersion": "SPDX-2.3",
   "name": "SBOM-SPDX-assimp-6.0.2",
   "creationInfo": {
-    "created": "2025-08-07T11:54:47Z",
+    "created": "2025-08-19T13:53:25Z",
     "creators": [
-      "Tool: https://github.com/Homebrew/brew@4.5.13"
+      "Tool: https://github.com/Homebrew/brew@4.6.4"
     ]
   },
   "dataLicense": "CC0-1.0",

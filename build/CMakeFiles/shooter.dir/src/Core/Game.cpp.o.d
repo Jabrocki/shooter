@@ -1145,6 +1145,98 @@ CMakeFiles/shooter.dir/src/Core/Game.cpp.o: \
   /Users/jabrooo/Documents/workspace/shooter_png/external/glm/include/glm/gtc/../geometric.hpp \
   /Users/jabrooo/Documents/workspace/shooter_png/external/glm/include/glm/gtc/../trigonometric.hpp \
   /Users/jabrooo/Documents/workspace/shooter_png/external/glm/include/glm/gtc/../matrix.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/Model.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/Importer.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/types.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/defs.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/config.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/vector2.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/vector3.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/color4.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/matrix3x3.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/matrix4x4.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/quaternion.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/vector2.inl \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/vector3.inl \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/color4.inl \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/matrix3x3.inl \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/matrix4x4.inl \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/MathFunctions.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/quaternion.inl \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/scene.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/texture.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/./Compiler/pushpack1.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/./Compiler/poppack1.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/mesh.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/aabb.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/light.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/camera.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/material.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/material.inl \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/anim.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/metadata.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/postprocess.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/Mesh.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/Texture.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/VertexArray.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/VertexBuffer.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/VertexBufferLayout.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/IndexBuffer.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/Shader.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/Debug.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/container_adaptor.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/range_default_formatter.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/statically_widen.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/range_formatter.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_context.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_arg_store.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_args.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/ref_view.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_functions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_char.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/write_escaped.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/escaped_output_table.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_floating_point.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/chars_format.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_floating_point.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_integer.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_pointer.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/Cube.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../ECS/Components/Transform.h \
   /Users/jabrooo/Documents/workspace/shooter_png/external/glm/include/glm/gtc/quaternion.hpp \
@@ -1205,42 +1297,6 @@ CMakeFiles/shooter.dir/src/Core/Game.cpp.o: \
   /Users/jabrooo/Documents/workspace/shooter_png/external/glm/include/glm/gtc/../vector_relational.hpp \
   /Users/jabrooo/Documents/workspace/shooter_png/external/glm/include/glm/gtc/../common.hpp \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../ECS/Components/Mesh.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../ECS/Components/../../OpenGL/Texture.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../ECS/Components/../../OpenGL/VertexArray.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../ECS/Components/../../OpenGL/VertexBuffer.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../ECS/Components/../../OpenGL/VertexBufferLayout.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../ECS/Components/../../OpenGL/IndexBuffer.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../ECS/Components/../../OpenGL/Shader.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../ECS/Components/../../OpenGL/Debug.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/container_adaptor.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/range_default_formatter.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/statically_widen.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/range_formatter.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_context.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_arg_store.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_args.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/ref_view.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_functions.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_char.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/write_escaped.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/escaped_output_table.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_floating_point.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/chars_format.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_floating_point.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_integer.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_pointer.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_string.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../OpenGL/Texture.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../OpenGL/Shader.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/Light.h \

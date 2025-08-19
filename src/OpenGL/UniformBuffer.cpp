@@ -16,7 +16,7 @@ UniformBuffer::UniformBuffer(const UniformBufferLayout& layout)
 
 UniformBuffer::~UniformBuffer()
 {
-    GLCall(glDeleteBuffers(1, &m_RendererID));
+    //GLCall(glDeleteBuffers(1, &m_RendererID));
 }
 
 void UniformBuffer::Bind()

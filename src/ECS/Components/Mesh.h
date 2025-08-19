@@ -38,6 +38,7 @@ public:
         Shader& shader,
         const glm::mat4& model
     );
+    
 private:
     VertexArray m_VAO;
     IndexBuffer m_IBO;

@@ -7,7 +7,7 @@ Mesh::Mesh(
     : vertices(vertices), 
       indices(indices), 
       textures(textures),
-      m_IBO(indices.data(), indices.size() * sizeof(GLuint)),
+      m_IBO(indices.data(), indices.size()),
       m_VBO(vertices.data(), vertices.size() * sizeof(Vertex))
 {
 
@@ -48,7 +48,8 @@ void Mesh::Draw(Shader& shader, const glm::mat4& model)
         textures[i].Bind(i);
     }
     shader.SetUniformMat4f("uModel", model);
-    GLCall(glDrawElements(GL_TRIANGLES, indices.size(), GL_UNSIGNED_INT, 0));
+    
+    GLCall(glDrawElements(GL_TRIANGLES, m_IBO.GetCount(), GL_UNSIGNED_INT, 0));
 
     // Unbind textures
     for (unsigned int i = 0; i < textures.size(); i++)

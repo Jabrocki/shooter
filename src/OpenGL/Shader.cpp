@@ -64,7 +64,7 @@ std::string Shader::ParseShaderCode(const std::string& path)
 
 Shader::~Shader()
 {
-    GLCall(glDeleteProgram(m_RendererID));
+    //GLCall(glDeleteProgram(m_RendererID));
 }
 
 void Shader::Bind() const

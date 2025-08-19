@@ -221,6 +221,9 @@ glfw3_DIR:PATH=/opt/homebrew/lib/cmake/glfw3
 //The directory containing a CMake configuration file for glm.
 glm_DIR:PATH=/usr/local/share/glm
 
+//The directory containing a CMake configuration file for nlohmann_json.
+nlohmann_json_DIR:PATH=/opt/homebrew/share/cmake/nlohmann_json
+
 //Value Computed by CMake
 shooter_BINARY_DIR:STATIC=/Users/jabrooo/Documents/workspace/shooter_png/build
 
@@ -380,4 +383,6 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Details about finding nlohmann_json
+FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json:INTERNAL=[/opt/homebrew/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake][v3.12.0(3.12.0)]
 

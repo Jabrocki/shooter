@@ -40,8 +40,9 @@ add_library(glad STATIC external/glad/src/glad.c)
 #GLM
 find_package(glm CONFIG REQUIRED)
 
-#Assimp
-find_package(assimp CONFIG REQUIRED)
+#assimp
+find_package(assimp REQUIRED)
+
 
 target_link_libraries(shooter glfw glad glm::glm assimp::assimp)
 
