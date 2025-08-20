@@ -11,6 +11,7 @@ include_directories(
     external/stb_image/include
     external/glm/include
     external/assimp/include
+    external/json/include
 )
 
 #myapp
@@ -43,8 +44,11 @@ find_package(glm CONFIG REQUIRED)
 #assimp
 find_package(assimp REQUIRED)
 
+#nlhomann-json
+find_package(nlohmann_json 3.12.0 REQUIRED)
 
-target_link_libraries(shooter glfw glad glm::glm assimp::assimp)
+
+target_link_libraries(shooter glfw glad glm::glm assimp::assimp nlohmann_json::nlohmann_json)
 
 
 #GLFW expectcs these packages for MACOS

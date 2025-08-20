@@ -1,7 +1,7 @@
 #include "Game.h"
 
 //ECS
-#include "../ECS/Components/Model.h"
+#include "../ECS/Components/ModelGLTF.h"
 
 
 // GameObjects
@@ -47,6 +47,7 @@ void Game::Init()
     }
 
     GLCall(glEnable(GL_DEPTH_TEST));
+    //GLCall(glPolygonMode(GL_FRONT_AND_BACK, GL_LINE));
 }
 
 void Game::Run()
@@ -54,7 +55,7 @@ void Game::Run()
     Shader cubeShader("res/shaders/cube.vert", "res/shaders/cube.frag");
 
     //Model
-    Model model("res/models/backpack/backpack.obj");
+    ModelGLTF model("res/models/lego_batman/scene.gltf");
     
     // Initialize projection matrix
     glm::mat4 projection = glm::perspective(glm::radians(45.0f), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
@@ -148,8 +149,9 @@ void Game::Run()
             cube->Draw();
         }
 
-        glm::mat4 identity = glm::mat4(1.0f);
-        model.Draw(cubeShader, identity);
+        glm::mat4 matModel = glm::mat4(1.0f);
+        //matModel = glm::scale(matModel, glm::vec3(0.005f, 0.005f, 0.005f));
+        model.Draw(cubeShader, matModel);
 
         light.Draw();
         light.Update(m_DeltaTime);

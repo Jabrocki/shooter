@@ -9,6 +9,8 @@
 				"/Users/jabrooo/Documents/workspace/shooter_png/src/Core/Game.cpp",
 				"/Users/jabrooo/Documents/workspace/shooter_png/src/Core/Window.cpp",
 				"/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/Mesh.cpp",
+				"/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/Model.cpp",
+				"/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/ModelGLTF.cpp",
 				"/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/Transform.cpp",
 				"/Users/jabrooo/Documents/workspace/shooter_png/src/GameObjects/Cube.cpp",
 				"/Users/jabrooo/Documents/workspace/shooter_png/src/GameObjects/Floor.cpp",
@@ -33,6 +35,7 @@
 				"/Users/jabrooo/Documents/workspace/shooter_png/src/Core/Window.h",
 				"/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/Mesh.h",
 				"/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/Model.h",
+				"/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/ModelGLTF.h",
 				"/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/Transform.h",
 				"/Users/jabrooo/Documents/workspace/shooter_png/src/GameObjects/Cube.h",
 				"/Users/jabrooo/Documents/workspace/shooter_png/src/GameObjects/Floor.h",
@@ -340,6 +343,28 @@
 		{
 			"isExternal" : true,
 			"path" : "/opt/homebrew/lib/cmake/assimp-6.0/assimpTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

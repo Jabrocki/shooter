@@ -1145,47 +1145,43 @@ CMakeFiles/shooter.dir/src/Core/Game.cpp.o: \
   /Users/jabrooo/Documents/workspace/shooter_png/external/glm/include/glm/gtc/../geometric.hpp \
   /Users/jabrooo/Documents/workspace/shooter_png/external/glm/include/glm/gtc/../trigonometric.hpp \
   /Users/jabrooo/Documents/workspace/shooter_png/external/glm/include/glm/gtc/../matrix.hpp \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/Model.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/Importer.hpp \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/types.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/defs.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/config.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/vector2.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/vector3.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/color4.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/matrix3x3.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/matrix4x4.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/quaternion.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/vector2.inl \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/vector3.inl \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/color4.inl \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/matrix3x3.inl \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/matrix4x4.inl \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/MathFunctions.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/quaternion.inl \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/scene.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/texture.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/./Compiler/pushpack1.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/./Compiler/poppack1.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/mesh.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/aabb.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/light.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/camera.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/material.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/material.inl \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/anim.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/metadata.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include/assimp/postprocess.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/Mesh.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/Texture.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/VertexArray.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/VertexBuffer.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/VertexBufferLayout.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/IndexBuffer.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/Shader.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/Debug.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/ModelGLTF.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/json.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/adl_serializer.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/abi_macros.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/conversions/from_json.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/valarray \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/exceptions.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/value_t.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/macro_scope.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/meta/detected.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/meta/void_t.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/string_escape.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/input/position_t.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/meta/cpp_future.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/meta/type_traits.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/meta/call_std/begin.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/meta/call_std/end.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/json_fwd.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/string_concat.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/meta/identity_tag.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/meta/std_fs.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
@@ -1214,18 +1210,6 @@ CMakeFiles/shooter.dir/src/Core/Game.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \
@@ -1234,9 +1218,70 @@ CMakeFiles/shooter.dir/src/Core/Game.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/conversions/to_json.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/string_utils.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/byte_container_with_subtype.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/hash.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/input/binary_reader.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/input/input_adapters.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/iota.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/midpoint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/partial_sum.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/pstl_reduce.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/saturation_arithmetic.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/input/json_sax.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/input/lexer.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/meta/is_sax.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/input/parser.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/iterators/iter_impl.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/json_custom_base_class.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/json_pointer.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/json_ref.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/output/binary_writer.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/output/output_adapters.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/output/serializer.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/conversions/to_chars.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/ordered_map.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/any \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/calendar.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/convert_to_tm.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/concepts.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/hh_mm_ss.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/day.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/month.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/month_weekday.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/weekday.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/monthday.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year_month.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year_month_day.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/literals.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/detail/macro_unscope.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/external/json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/Mesh.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/Texture.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/VertexArray.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/VertexBuffer.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/VertexBufferLayout.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/IndexBuffer.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/Shader.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../ECS/Components/../../OpenGL/Debug.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/Cube.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../GameObjects/../ECS/Components/Transform.h \
   /Users/jabrooo/Documents/workspace/shooter_png/external/glm/include/glm/gtc/quaternion.hpp \

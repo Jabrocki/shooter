@@ -1,0 +1,87 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "name": "SBOM-SPDX-nlohmann-json-3.12.0",
+  "creationInfo": {
+    "created": "2025-08-19T17:58:49Z",
+    "creators": [
+      "Tool: https://github.com/Homebrew/brew@4.6.4"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://formulae.brew.sh/spdx/nlohmann-json-3.12.0.json",
+  "documentDescribes": [
+    "SPDXRef-Archive-nlohmann-json-src",
+    "SPDXRef-Compiler",
+    "SPDXRef-Bottle-nlohmann-json"
+  ],
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Archive-nlohmann-json-src",
+      "name": "nlohmann-json",
+      "versionInfo": "3.12.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2025-04-11 08:42:28 UTC",
+      "licenseConcluded": "MIT",
+      "downloadLocation": "https://github.com/nlohmann/json/archive/refs/tags/v3.12.0.tar.gz",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4b92eb0c06d10683f7447ce9406cb97cd4b453be18d7279320f7b2f025c10187"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Compiler",
+      "name": "gcc-11",
+      "versionInfo": "16.2",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "checksums": [],
+      "externalRefs": []
+    },
+    {
+      "SPDXID": "SPDXRef-Bottle-nlohmann-json",
+      "name": "nlohmann-json",
+      "versionInfo": "3.12.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2025-04-11 08:42:28 UTC",
+      "licenseConcluded": "MIT",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/nlohmann-json/blobs/sha256:df65065eb8504f15f8802b7c681df015a592a68336db7fe290eeeda59fa1e440",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/homebrew/core/nlohmann-json@3.12.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "df65065eb8504f15f8802b7c681df015a592a68336db7fe290eeeda59fa1e440"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-File-nlohmann-json",
+      "relationshipType": "PACKAGE_OF",
+      "relatedSpdxElement": "SPDXRef-Archive-nlohmann-json-src"
+    },
+    {
+      "spdxElementId": "SPDXRef-Compiler",
+      "relationshipType": "BUILD_TOOL_OF",
+      "relatedSpdxElement": "SPDXRef-Package-nlohmann-json-src"
+    }
+  ]
+}

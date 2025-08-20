@@ -12,6 +12,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/jabrooo/Documents/workspace/shooter_png/src/Core/Game.cpp" "CMakeFiles/shooter.dir/src/Core/Game.cpp.o" "gcc" "CMakeFiles/shooter.dir/src/Core/Game.cpp.o.d"
   "/Users/jabrooo/Documents/workspace/shooter_png/src/Core/Window.cpp" "CMakeFiles/shooter.dir/src/Core/Window.cpp.o" "gcc" "CMakeFiles/shooter.dir/src/Core/Window.cpp.o.d"
   "/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/Mesh.cpp" "CMakeFiles/shooter.dir/src/ECS/Components/Mesh.cpp.o" "gcc" "CMakeFiles/shooter.dir/src/ECS/Components/Mesh.cpp.o.d"
+  "/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/Model.cpp" "CMakeFiles/shooter.dir/src/ECS/Components/Model.cpp.o" "gcc" "CMakeFiles/shooter.dir/src/ECS/Components/Model.cpp.o.d"
+  "/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/ModelGLTF.cpp" "CMakeFiles/shooter.dir/src/ECS/Components/ModelGLTF.cpp.o" "gcc" "CMakeFiles/shooter.dir/src/ECS/Components/ModelGLTF.cpp.o.d"
   "/Users/jabrooo/Documents/workspace/shooter_png/src/ECS/Components/Transform.cpp" "CMakeFiles/shooter.dir/src/ECS/Components/Transform.cpp.o" "gcc" "CMakeFiles/shooter.dir/src/ECS/Components/Transform.cpp.o.d"
   "/Users/jabrooo/Documents/workspace/shooter_png/src/GameObjects/Cube.cpp" "CMakeFiles/shooter.dir/src/GameObjects/Cube.cpp.o" "gcc" "CMakeFiles/shooter.dir/src/GameObjects/Cube.cpp.o.d"
   "/Users/jabrooo/Documents/workspace/shooter_png/src/GameObjects/Floor.cpp" "CMakeFiles/shooter.dir/src/GameObjects/Floor.cpp.o" "gcc" "CMakeFiles/shooter.dir/src/GameObjects/Floor.cpp.o.d"

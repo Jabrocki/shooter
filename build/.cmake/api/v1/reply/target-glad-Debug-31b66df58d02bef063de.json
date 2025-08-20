@@ -26,7 +26,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 38,
+				"line" : 39,
 				"parent" : 0
 			},
 			{
@@ -67,6 +67,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "/Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jabrooo/Documents/workspace/shooter_png/external/json/include"
 				}
 			],
 			"language" : "C",

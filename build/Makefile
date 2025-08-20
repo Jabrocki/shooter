@@ -263,6 +263,54 @@ src/ECS/Components/Mesh.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/Mesh.cpp.s
 .PHONY : src/ECS/Components/Mesh.cpp.s
 
+src/ECS/Components/Model.o: src/ECS/Components/Model.cpp.o
+.PHONY : src/ECS/Components/Model.o
+
+# target to build an object file
+src/ECS/Components/Model.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/Model.cpp.o
+.PHONY : src/ECS/Components/Model.cpp.o
+
+src/ECS/Components/Model.i: src/ECS/Components/Model.cpp.i
+.PHONY : src/ECS/Components/Model.i
+
+# target to preprocess a source file
+src/ECS/Components/Model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/Model.cpp.i
+.PHONY : src/ECS/Components/Model.cpp.i
+
+src/ECS/Components/Model.s: src/ECS/Components/Model.cpp.s
+.PHONY : src/ECS/Components/Model.s
+
+# target to generate assembly for a file
+src/ECS/Components/Model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/Model.cpp.s
+.PHONY : src/ECS/Components/Model.cpp.s
+
+src/ECS/Components/ModelGLTF.o: src/ECS/Components/ModelGLTF.cpp.o
+.PHONY : src/ECS/Components/ModelGLTF.o
+
+# target to build an object file
+src/ECS/Components/ModelGLTF.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/ModelGLTF.cpp.o
+.PHONY : src/ECS/Components/ModelGLTF.cpp.o
+
+src/ECS/Components/ModelGLTF.i: src/ECS/Components/ModelGLTF.cpp.i
+.PHONY : src/ECS/Components/ModelGLTF.i
+
+# target to preprocess a source file
+src/ECS/Components/ModelGLTF.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/ModelGLTF.cpp.i
+.PHONY : src/ECS/Components/ModelGLTF.cpp.i
+
+src/ECS/Components/ModelGLTF.s: src/ECS/Components/ModelGLTF.cpp.s
+.PHONY : src/ECS/Components/ModelGLTF.s
+
+# target to generate assembly for a file
+src/ECS/Components/ModelGLTF.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/ModelGLTF.cpp.s
+.PHONY : src/ECS/Components/ModelGLTF.cpp.s
+
 src/ECS/Components/Transform.o: src/ECS/Components/Transform.cpp.o
 .PHONY : src/ECS/Components/Transform.o
 
@@ -576,6 +624,12 @@ help:
 	@echo "... src/ECS/Components/Mesh.o"
 	@echo "... src/ECS/Components/Mesh.i"
 	@echo "... src/ECS/Components/Mesh.s"
+	@echo "... src/ECS/Components/Model.o"
+	@echo "... src/ECS/Components/Model.i"
+	@echo "... src/ECS/Components/Model.s"
+	@echo "... src/ECS/Components/ModelGLTF.o"
+	@echo "... src/ECS/Components/ModelGLTF.i"
+	@echo "... src/ECS/Components/ModelGLTF.s"
 	@echo "... src/ECS/Components/Transform.o"
 	@echo "... src/ECS/Components/Transform.i"
 	@echo "... src/ECS/Components/Transform.s"

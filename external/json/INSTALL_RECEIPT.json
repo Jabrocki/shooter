@@ -1,0 +1,37 @@
+{
+  "homebrew_version": "4.5.0-90-g7617ac1",
+  "used_options": [],
+  "unused_options": [],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": [
+    "share/pkgconfig/nlohmann_json.pc"
+  ],
+  "time": 1755626329,
+  "source_modified_time": 1744360948,
+  "compiler": "gcc-11",
+  "aliases": [],
+  "runtime_dependencies": [],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "3.12.0",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/Users/jabrooo/Library/Caches/Homebrew/api/formula.jws.json",
+    "tap_git_head": null,
+    "tap": "homebrew/core"
+  },
+  "arch": "arm64",
+  "built_on": {
+    "os": "Linux",
+    "os_version": "Ubuntu 22.04.5",
+    "cpu_family": "arm",
+    "glibc_version": "2.35",
+    "oldest_cpu_family": "armv8"
+  }
+}
