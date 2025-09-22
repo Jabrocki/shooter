@@ -1,8 +1,8 @@
 1. Add lighting to a game and same more of this sweet opengl abstarciton
 1.6. Undesrtand math beetween transformation pipeline ( i think i still do not get it)
-1.8. Add gltf model based loading
-
-2. Create renderer and logger for easier access
+1.8. Przetestuj i zrób zeby działała clasa transform
+1.9. Handle memory issues with opengl abstraction
+2. Add logger
 3. Add walls and primitive level generation
 4. Create room editor
 5. Split game into dynamic library (engine), game and level editor

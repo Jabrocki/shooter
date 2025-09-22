@@ -1,15 +1,12 @@
-#include "Core/Game.h"
+#include "Game/MyGame.h"
 
+int main() {
+  MyGame game;
+  // Initilize game
+  game.Init();
 
-int main()
-{
-    Game game;
-    //Initilize game
-    game.Init();
+  // Run game
+  game.Run();
 
-    //Run game
-    game.Run();
-
-    return 0;
+  return 0;
 }
-

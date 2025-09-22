@@ -191,6 +191,78 @@ src/Core/Camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Camera.cpp.s
 .PHONY : src/Core/Camera.cpp.s
 
+src/Core/Components/Mesh.o: src/Core/Components/Mesh.cpp.o
+.PHONY : src/Core/Components/Mesh.o
+
+# target to build an object file
+src/Core/Components/Mesh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Components/Mesh.cpp.o
+.PHONY : src/Core/Components/Mesh.cpp.o
+
+src/Core/Components/Mesh.i: src/Core/Components/Mesh.cpp.i
+.PHONY : src/Core/Components/Mesh.i
+
+# target to preprocess a source file
+src/Core/Components/Mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Components/Mesh.cpp.i
+.PHONY : src/Core/Components/Mesh.cpp.i
+
+src/Core/Components/Mesh.s: src/Core/Components/Mesh.cpp.s
+.PHONY : src/Core/Components/Mesh.s
+
+# target to generate assembly for a file
+src/Core/Components/Mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Components/Mesh.cpp.s
+.PHONY : src/Core/Components/Mesh.cpp.s
+
+src/Core/Components/Model.o: src/Core/Components/Model.cpp.o
+.PHONY : src/Core/Components/Model.o
+
+# target to build an object file
+src/Core/Components/Model.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Components/Model.cpp.o
+.PHONY : src/Core/Components/Model.cpp.o
+
+src/Core/Components/Model.i: src/Core/Components/Model.cpp.i
+.PHONY : src/Core/Components/Model.i
+
+# target to preprocess a source file
+src/Core/Components/Model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Components/Model.cpp.i
+.PHONY : src/Core/Components/Model.cpp.i
+
+src/Core/Components/Model.s: src/Core/Components/Model.cpp.s
+.PHONY : src/Core/Components/Model.s
+
+# target to generate assembly for a file
+src/Core/Components/Model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Components/Model.cpp.s
+.PHONY : src/Core/Components/Model.cpp.s
+
+src/Core/Components/Transform.o: src/Core/Components/Transform.cpp.o
+.PHONY : src/Core/Components/Transform.o
+
+# target to build an object file
+src/Core/Components/Transform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Components/Transform.cpp.o
+.PHONY : src/Core/Components/Transform.cpp.o
+
+src/Core/Components/Transform.i: src/Core/Components/Transform.cpp.i
+.PHONY : src/Core/Components/Transform.i
+
+# target to preprocess a source file
+src/Core/Components/Transform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Components/Transform.cpp.i
+.PHONY : src/Core/Components/Transform.cpp.i
+
+src/Core/Components/Transform.s: src/Core/Components/Transform.cpp.s
+.PHONY : src/Core/Components/Transform.s
+
+# target to generate assembly for a file
+src/Core/Components/Transform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Components/Transform.cpp.s
+.PHONY : src/Core/Components/Transform.cpp.s
+
 src/Core/Game.o: src/Core/Game.cpp.o
 .PHONY : src/Core/Game.o
 
@@ -214,6 +286,78 @@ src/Core/Game.s: src/Core/Game.cpp.s
 src/Core/Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Game.cpp.s
 .PHONY : src/Core/Game.cpp.s
+
+src/Core/Renderer.o: src/Core/Renderer.cpp.o
+.PHONY : src/Core/Renderer.o
+
+# target to build an object file
+src/Core/Renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Renderer.cpp.o
+.PHONY : src/Core/Renderer.cpp.o
+
+src/Core/Renderer.i: src/Core/Renderer.cpp.i
+.PHONY : src/Core/Renderer.i
+
+# target to preprocess a source file
+src/Core/Renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Renderer.cpp.i
+.PHONY : src/Core/Renderer.cpp.i
+
+src/Core/Renderer.s: src/Core/Renderer.cpp.s
+.PHONY : src/Core/Renderer.s
+
+# target to generate assembly for a file
+src/Core/Renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Renderer.cpp.s
+.PHONY : src/Core/Renderer.cpp.s
+
+src/Core/Scene.o: src/Core/Scene.cpp.o
+.PHONY : src/Core/Scene.o
+
+# target to build an object file
+src/Core/Scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Scene.cpp.o
+.PHONY : src/Core/Scene.cpp.o
+
+src/Core/Scene.i: src/Core/Scene.cpp.i
+.PHONY : src/Core/Scene.i
+
+# target to preprocess a source file
+src/Core/Scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Scene.cpp.i
+.PHONY : src/Core/Scene.cpp.i
+
+src/Core/Scene.s: src/Core/Scene.cpp.s
+.PHONY : src/Core/Scene.s
+
+# target to generate assembly for a file
+src/Core/Scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Scene.cpp.s
+.PHONY : src/Core/Scene.cpp.s
+
+src/Core/SceneManager.o: src/Core/SceneManager.cpp.o
+.PHONY : src/Core/SceneManager.o
+
+# target to build an object file
+src/Core/SceneManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/SceneManager.cpp.o
+.PHONY : src/Core/SceneManager.cpp.o
+
+src/Core/SceneManager.i: src/Core/SceneManager.cpp.i
+.PHONY : src/Core/SceneManager.i
+
+# target to preprocess a source file
+src/Core/SceneManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/SceneManager.cpp.i
+.PHONY : src/Core/SceneManager.cpp.i
+
+src/Core/SceneManager.s: src/Core/SceneManager.cpp.s
+.PHONY : src/Core/SceneManager.s
+
+# target to generate assembly for a file
+src/Core/SceneManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/SceneManager.cpp.s
+.PHONY : src/Core/SceneManager.cpp.s
 
 src/Core/Window.o: src/Core/Window.cpp.o
 .PHONY : src/Core/Window.o
@@ -239,173 +383,77 @@ src/Core/Window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Core/Window.cpp.s
 .PHONY : src/Core/Window.cpp.s
 
-src/ECS/Components/Mesh.o: src/ECS/Components/Mesh.cpp.o
-.PHONY : src/ECS/Components/Mesh.o
+src/Game/MyGame.o: src/Game/MyGame.cpp.o
+.PHONY : src/Game/MyGame.o
 
 # target to build an object file
-src/ECS/Components/Mesh.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/Mesh.cpp.o
-.PHONY : src/ECS/Components/Mesh.cpp.o
+src/Game/MyGame.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Game/MyGame.cpp.o
+.PHONY : src/Game/MyGame.cpp.o
 
-src/ECS/Components/Mesh.i: src/ECS/Components/Mesh.cpp.i
-.PHONY : src/ECS/Components/Mesh.i
+src/Game/MyGame.i: src/Game/MyGame.cpp.i
+.PHONY : src/Game/MyGame.i
 
 # target to preprocess a source file
-src/ECS/Components/Mesh.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/Mesh.cpp.i
-.PHONY : src/ECS/Components/Mesh.cpp.i
+src/Game/MyGame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Game/MyGame.cpp.i
+.PHONY : src/Game/MyGame.cpp.i
 
-src/ECS/Components/Mesh.s: src/ECS/Components/Mesh.cpp.s
-.PHONY : src/ECS/Components/Mesh.s
+src/Game/MyGame.s: src/Game/MyGame.cpp.s
+.PHONY : src/Game/MyGame.s
 
 # target to generate assembly for a file
-src/ECS/Components/Mesh.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/Mesh.cpp.s
-.PHONY : src/ECS/Components/Mesh.cpp.s
+src/Game/MyGame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Game/MyGame.cpp.s
+.PHONY : src/Game/MyGame.cpp.s
 
-src/ECS/Components/Model.o: src/ECS/Components/Model.cpp.o
-.PHONY : src/ECS/Components/Model.o
+src/Game/Objects/Cube.o: src/Game/Objects/Cube.cpp.o
+.PHONY : src/Game/Objects/Cube.o
 
 # target to build an object file
-src/ECS/Components/Model.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/Model.cpp.o
-.PHONY : src/ECS/Components/Model.cpp.o
+src/Game/Objects/Cube.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Game/Objects/Cube.cpp.o
+.PHONY : src/Game/Objects/Cube.cpp.o
 
-src/ECS/Components/Model.i: src/ECS/Components/Model.cpp.i
-.PHONY : src/ECS/Components/Model.i
+src/Game/Objects/Cube.i: src/Game/Objects/Cube.cpp.i
+.PHONY : src/Game/Objects/Cube.i
 
 # target to preprocess a source file
-src/ECS/Components/Model.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/Model.cpp.i
-.PHONY : src/ECS/Components/Model.cpp.i
+src/Game/Objects/Cube.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Game/Objects/Cube.cpp.i
+.PHONY : src/Game/Objects/Cube.cpp.i
 
-src/ECS/Components/Model.s: src/ECS/Components/Model.cpp.s
-.PHONY : src/ECS/Components/Model.s
+src/Game/Objects/Cube.s: src/Game/Objects/Cube.cpp.s
+.PHONY : src/Game/Objects/Cube.s
 
 # target to generate assembly for a file
-src/ECS/Components/Model.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/Model.cpp.s
-.PHONY : src/ECS/Components/Model.cpp.s
+src/Game/Objects/Cube.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Game/Objects/Cube.cpp.s
+.PHONY : src/Game/Objects/Cube.cpp.s
 
-src/ECS/Components/ModelGLTF.o: src/ECS/Components/ModelGLTF.cpp.o
-.PHONY : src/ECS/Components/ModelGLTF.o
+src/Game/Scenes/Level.o: src/Game/Scenes/Level.cpp.o
+.PHONY : src/Game/Scenes/Level.o
 
 # target to build an object file
-src/ECS/Components/ModelGLTF.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/ModelGLTF.cpp.o
-.PHONY : src/ECS/Components/ModelGLTF.cpp.o
+src/Game/Scenes/Level.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Game/Scenes/Level.cpp.o
+.PHONY : src/Game/Scenes/Level.cpp.o
 
-src/ECS/Components/ModelGLTF.i: src/ECS/Components/ModelGLTF.cpp.i
-.PHONY : src/ECS/Components/ModelGLTF.i
-
-# target to preprocess a source file
-src/ECS/Components/ModelGLTF.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/ModelGLTF.cpp.i
-.PHONY : src/ECS/Components/ModelGLTF.cpp.i
-
-src/ECS/Components/ModelGLTF.s: src/ECS/Components/ModelGLTF.cpp.s
-.PHONY : src/ECS/Components/ModelGLTF.s
-
-# target to generate assembly for a file
-src/ECS/Components/ModelGLTF.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/ModelGLTF.cpp.s
-.PHONY : src/ECS/Components/ModelGLTF.cpp.s
-
-src/ECS/Components/Transform.o: src/ECS/Components/Transform.cpp.o
-.PHONY : src/ECS/Components/Transform.o
-
-# target to build an object file
-src/ECS/Components/Transform.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/Transform.cpp.o
-.PHONY : src/ECS/Components/Transform.cpp.o
-
-src/ECS/Components/Transform.i: src/ECS/Components/Transform.cpp.i
-.PHONY : src/ECS/Components/Transform.i
+src/Game/Scenes/Level.i: src/Game/Scenes/Level.cpp.i
+.PHONY : src/Game/Scenes/Level.i
 
 # target to preprocess a source file
-src/ECS/Components/Transform.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/Transform.cpp.i
-.PHONY : src/ECS/Components/Transform.cpp.i
+src/Game/Scenes/Level.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Game/Scenes/Level.cpp.i
+.PHONY : src/Game/Scenes/Level.cpp.i
 
-src/ECS/Components/Transform.s: src/ECS/Components/Transform.cpp.s
-.PHONY : src/ECS/Components/Transform.s
-
-# target to generate assembly for a file
-src/ECS/Components/Transform.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/ECS/Components/Transform.cpp.s
-.PHONY : src/ECS/Components/Transform.cpp.s
-
-src/GameObjects/Cube.o: src/GameObjects/Cube.cpp.o
-.PHONY : src/GameObjects/Cube.o
-
-# target to build an object file
-src/GameObjects/Cube.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/GameObjects/Cube.cpp.o
-.PHONY : src/GameObjects/Cube.cpp.o
-
-src/GameObjects/Cube.i: src/GameObjects/Cube.cpp.i
-.PHONY : src/GameObjects/Cube.i
-
-# target to preprocess a source file
-src/GameObjects/Cube.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/GameObjects/Cube.cpp.i
-.PHONY : src/GameObjects/Cube.cpp.i
-
-src/GameObjects/Cube.s: src/GameObjects/Cube.cpp.s
-.PHONY : src/GameObjects/Cube.s
+src/Game/Scenes/Level.s: src/Game/Scenes/Level.cpp.s
+.PHONY : src/Game/Scenes/Level.s
 
 # target to generate assembly for a file
-src/GameObjects/Cube.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/GameObjects/Cube.cpp.s
-.PHONY : src/GameObjects/Cube.cpp.s
-
-src/GameObjects/Floor.o: src/GameObjects/Floor.cpp.o
-.PHONY : src/GameObjects/Floor.o
-
-# target to build an object file
-src/GameObjects/Floor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/GameObjects/Floor.cpp.o
-.PHONY : src/GameObjects/Floor.cpp.o
-
-src/GameObjects/Floor.i: src/GameObjects/Floor.cpp.i
-.PHONY : src/GameObjects/Floor.i
-
-# target to preprocess a source file
-src/GameObjects/Floor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/GameObjects/Floor.cpp.i
-.PHONY : src/GameObjects/Floor.cpp.i
-
-src/GameObjects/Floor.s: src/GameObjects/Floor.cpp.s
-.PHONY : src/GameObjects/Floor.s
-
-# target to generate assembly for a file
-src/GameObjects/Floor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/GameObjects/Floor.cpp.s
-.PHONY : src/GameObjects/Floor.cpp.s
-
-src/GameObjects/Light.o: src/GameObjects/Light.cpp.o
-.PHONY : src/GameObjects/Light.o
-
-# target to build an object file
-src/GameObjects/Light.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/GameObjects/Light.cpp.o
-.PHONY : src/GameObjects/Light.cpp.o
-
-src/GameObjects/Light.i: src/GameObjects/Light.cpp.i
-.PHONY : src/GameObjects/Light.i
-
-# target to preprocess a source file
-src/GameObjects/Light.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/GameObjects/Light.cpp.i
-.PHONY : src/GameObjects/Light.cpp.i
-
-src/GameObjects/Light.s: src/GameObjects/Light.cpp.s
-.PHONY : src/GameObjects/Light.s
-
-# target to generate assembly for a file
-src/GameObjects/Light.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/GameObjects/Light.cpp.s
-.PHONY : src/GameObjects/Light.cpp.s
+src/Game/Scenes/Level.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/Game/Scenes/Level.cpp.s
+.PHONY : src/Game/Scenes/Level.cpp.s
 
 src/OpenGL/Debug.o: src/OpenGL/Debug.cpp.o
 .PHONY : src/OpenGL/Debug.o
@@ -430,6 +478,30 @@ src/OpenGL/Debug.s: src/OpenGL/Debug.cpp.s
 src/OpenGL/Debug.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/OpenGL/Debug.cpp.s
 .PHONY : src/OpenGL/Debug.cpp.s
+
+src/OpenGL/FrameBuffer.o: src/OpenGL/FrameBuffer.cpp.o
+.PHONY : src/OpenGL/FrameBuffer.o
+
+# target to build an object file
+src/OpenGL/FrameBuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/OpenGL/FrameBuffer.cpp.o
+.PHONY : src/OpenGL/FrameBuffer.cpp.o
+
+src/OpenGL/FrameBuffer.i: src/OpenGL/FrameBuffer.cpp.i
+.PHONY : src/OpenGL/FrameBuffer.i
+
+# target to preprocess a source file
+src/OpenGL/FrameBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/OpenGL/FrameBuffer.cpp.i
+.PHONY : src/OpenGL/FrameBuffer.cpp.i
+
+src/OpenGL/FrameBuffer.s: src/OpenGL/FrameBuffer.cpp.s
+.PHONY : src/OpenGL/FrameBuffer.s
+
+# target to generate assembly for a file
+src/OpenGL/FrameBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/OpenGL/FrameBuffer.cpp.s
+.PHONY : src/OpenGL/FrameBuffer.cpp.s
 
 src/OpenGL/IndexBuffer.o: src/OpenGL/IndexBuffer.cpp.o
 .PHONY : src/OpenGL/IndexBuffer.o
@@ -615,36 +687,45 @@ help:
 	@echo "... src/Core/Camera.o"
 	@echo "... src/Core/Camera.i"
 	@echo "... src/Core/Camera.s"
+	@echo "... src/Core/Components/Mesh.o"
+	@echo "... src/Core/Components/Mesh.i"
+	@echo "... src/Core/Components/Mesh.s"
+	@echo "... src/Core/Components/Model.o"
+	@echo "... src/Core/Components/Model.i"
+	@echo "... src/Core/Components/Model.s"
+	@echo "... src/Core/Components/Transform.o"
+	@echo "... src/Core/Components/Transform.i"
+	@echo "... src/Core/Components/Transform.s"
 	@echo "... src/Core/Game.o"
 	@echo "... src/Core/Game.i"
 	@echo "... src/Core/Game.s"
+	@echo "... src/Core/Renderer.o"
+	@echo "... src/Core/Renderer.i"
+	@echo "... src/Core/Renderer.s"
+	@echo "... src/Core/Scene.o"
+	@echo "... src/Core/Scene.i"
+	@echo "... src/Core/Scene.s"
+	@echo "... src/Core/SceneManager.o"
+	@echo "... src/Core/SceneManager.i"
+	@echo "... src/Core/SceneManager.s"
 	@echo "... src/Core/Window.o"
 	@echo "... src/Core/Window.i"
 	@echo "... src/Core/Window.s"
-	@echo "... src/ECS/Components/Mesh.o"
-	@echo "... src/ECS/Components/Mesh.i"
-	@echo "... src/ECS/Components/Mesh.s"
-	@echo "... src/ECS/Components/Model.o"
-	@echo "... src/ECS/Components/Model.i"
-	@echo "... src/ECS/Components/Model.s"
-	@echo "... src/ECS/Components/ModelGLTF.o"
-	@echo "... src/ECS/Components/ModelGLTF.i"
-	@echo "... src/ECS/Components/ModelGLTF.s"
-	@echo "... src/ECS/Components/Transform.o"
-	@echo "... src/ECS/Components/Transform.i"
-	@echo "... src/ECS/Components/Transform.s"
-	@echo "... src/GameObjects/Cube.o"
-	@echo "... src/GameObjects/Cube.i"
-	@echo "... src/GameObjects/Cube.s"
-	@echo "... src/GameObjects/Floor.o"
-	@echo "... src/GameObjects/Floor.i"
-	@echo "... src/GameObjects/Floor.s"
-	@echo "... src/GameObjects/Light.o"
-	@echo "... src/GameObjects/Light.i"
-	@echo "... src/GameObjects/Light.s"
+	@echo "... src/Game/MyGame.o"
+	@echo "... src/Game/MyGame.i"
+	@echo "... src/Game/MyGame.s"
+	@echo "... src/Game/Objects/Cube.o"
+	@echo "... src/Game/Objects/Cube.i"
+	@echo "... src/Game/Objects/Cube.s"
+	@echo "... src/Game/Scenes/Level.o"
+	@echo "... src/Game/Scenes/Level.i"
+	@echo "... src/Game/Scenes/Level.s"
 	@echo "... src/OpenGL/Debug.o"
 	@echo "... src/OpenGL/Debug.i"
 	@echo "... src/OpenGL/Debug.s"
+	@echo "... src/OpenGL/FrameBuffer.o"
+	@echo "... src/OpenGL/FrameBuffer.i"
+	@echo "... src/OpenGL/FrameBuffer.s"
 	@echo "... src/OpenGL/IndexBuffer.o"
 	@echo "... src/OpenGL/IndexBuffer.i"
 	@echo "... src/OpenGL/IndexBuffer.s"

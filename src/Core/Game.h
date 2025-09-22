@@ -1,39 +1,47 @@
 #pragma once
 
-#include <memory>
-#include "Window.h"
+#include <glad/glad.h>
+
 #include "Camera.h"
+#include "Renderer.h"
+#include "SceneManager.h"
+#include "Window.h"
 
-class Game
-{
+class Game {
+private:
+  Window mWindow;
+
 public:
-    Game();
-    ~Game();
+  Game();
+  ~Game();
 
-    void Init();
-    void Run();
+  virtual void Init();
+  void Run();
+
+  SceneManager SceneManager;
+  Renderer Renderer;
 
 private:
-    std::unique_ptr<Window> m_Window;
-    Camera m_Camera;
+  Camera mCamera;
 
-    // Timing
-    float m_LastFrame = 0.0f;
-    float m_DeltaTime = 0.0f;
+  // Timing
+  float mLastFrame = 0.0f;
+  float mDeltaTime = 0.0f;
+  unsigned int mCounter = 0;
 
-    // Mouse state
-    double m_LastX = 400.0;  // screen center
-    double m_LastY = 300.0;
-    bool m_FirstMouse = true;
+  // Mouse state
+  double mLastX = 400.0; // screen center
+  double mLastY = 300.0;
+  bool mFirstMouse = true;
 
-    glm::mat4 projection = glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 100.0f);
+  glm::mat4 projection =
+      glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 100.0f);
 
-    // Input + callbacks
-    void ProcessInput();
-    void OnMouseMove(double xpos, double ypos);
+  // Input + callbacks
+  void ProcessInput(float deltaTime);
+  void OnMouseMove(double xpos, double ypos);
 
-    // Game loop phases
-    void Update(float deltaTime);
-    void Clear();
-    void Draw();
+  // Game loop phases
+  void Update(float deltaTime);
+  void Draw();
 };
