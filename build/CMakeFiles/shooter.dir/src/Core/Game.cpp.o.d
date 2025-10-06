@@ -1188,6 +1188,10 @@ CMakeFiles/shooter.dir/src/Core/Game.cpp.o: \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/Systems/../../OpenGL/Shader.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/Systems/Updatable.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/FrameBuffer.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/ScreenQuad.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/VertexArray.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/VertexBuffer.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/VertexBufferLayout.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/Shader.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/UniformBuffer.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/UniformBufferLayout.h \

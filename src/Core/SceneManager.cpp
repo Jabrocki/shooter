@@ -9,6 +9,7 @@ void SceneManager::RemoveScene(const std::string &name) { mScenes.erase(name); }
 Scene *SceneManager::GetActiveScene() {
   if (mScenes.find(mActiveScene) != mScenes.end()) {
     return mScenes[mActiveScene];
+  } else {
   }
   return nullptr;
 }

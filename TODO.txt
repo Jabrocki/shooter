@@ -1,4 +1,7 @@
 1. Add lighting to a game and same more of this sweet opengl abstarciton
+1.1. Refactor shader class so it logs errors and warnings
+1.3. Add image prievue to neovim edditor
+1.2. Add linting in warnings in glsl shaders
 1.6. Undesrtand math beetween transformation pipeline ( i think i still do not get it)
 1.8. Przetestuj i zrób zeby działała clasa transform
 1.9. Handle memory issues with opengl abstraction

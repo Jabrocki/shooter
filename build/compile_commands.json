@@ -97,6 +97,12 @@
 },
 {
   "directory": "/Users/jabrooo/Documents/workspace/shooter_png/build",
+  "command": "/usr/bin/clang++  -I/Users/jabrooo/Documents/workspace/shooter_png/external/glad/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glfw-3.4/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/stb_image/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glm/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/json/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.o -c /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/ScreenQuad.cpp",
+  "file": "/Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/ScreenQuad.cpp",
+  "output": "CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.o"
+},
+{
+  "directory": "/Users/jabrooo/Documents/workspace/shooter_png/build",
   "command": "/usr/bin/clang++  -I/Users/jabrooo/Documents/workspace/shooter_png/external/glad/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glfw-3.4/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/stb_image/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/glm/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/assimp/include -I/Users/jabrooo/Documents/workspace/shooter_png/external/json/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.o -c /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/Shader.cpp",
   "file": "/Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/Shader.cpp",
   "output": "CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.o"

@@ -29,6 +29,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/shooter.dir/src/OpenGL/FrameBuffer.cpp.o.d"
   "CMakeFiles/shooter.dir/src/OpenGL/IndexBuffer.cpp.o"
   "CMakeFiles/shooter.dir/src/OpenGL/IndexBuffer.cpp.o.d"
+  "CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.o"
+  "CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.o.d"
   "CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.o"
   "CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.o.d"
   "CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.o"

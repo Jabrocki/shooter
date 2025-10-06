@@ -23,6 +23,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/Debug.cpp" "CMakeFiles/shooter.dir/src/OpenGL/Debug.cpp.o" "gcc" "CMakeFiles/shooter.dir/src/OpenGL/Debug.cpp.o.d"
   "/Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/FrameBuffer.cpp" "CMakeFiles/shooter.dir/src/OpenGL/FrameBuffer.cpp.o" "gcc" "CMakeFiles/shooter.dir/src/OpenGL/FrameBuffer.cpp.o.d"
   "/Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/IndexBuffer.cpp" "CMakeFiles/shooter.dir/src/OpenGL/IndexBuffer.cpp.o" "gcc" "CMakeFiles/shooter.dir/src/OpenGL/IndexBuffer.cpp.o.d"
+  "/Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/ScreenQuad.cpp" "CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.o" "gcc" "CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.o.d"
   "/Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/Shader.cpp" "CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.o" "gcc" "CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.o.d"
   "/Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/Texture.cpp" "CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.o" "gcc" "CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.o.d"
   "/Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/UniformBuffer.cpp" "CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.o" "gcc" "CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.o.d"

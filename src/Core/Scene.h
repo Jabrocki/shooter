@@ -14,9 +14,7 @@ public:
   void Update(float deltaTime);
   std::vector<Renderable *> opaqueObjects;
   std::vector<Renderable *> transparentObjects;
-
   std::vector<Updatable *> updatableObjects;
-
   std::vector<Light *> lights;
 
   // Future: split that into clusters

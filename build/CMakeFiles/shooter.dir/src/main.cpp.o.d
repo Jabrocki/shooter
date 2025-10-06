@@ -1189,6 +1189,10 @@ CMakeFiles/shooter.dir/src/main.cpp.o: \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Game/../Core/Systems/../../OpenGL/Shader.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Game/../Core/Systems/Updatable.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Game/../Core/../OpenGL/FrameBuffer.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Game/../Core/../OpenGL/ScreenQuad.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Game/../Core/../OpenGL/VertexArray.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Game/../Core/../OpenGL/VertexBuffer.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Game/../Core/../OpenGL/VertexBufferLayout.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Game/../Core/../OpenGL/Shader.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Game/../Core/../OpenGL/UniformBuffer.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Game/../Core/../OpenGL/UniformBufferLayout.h \
@@ -1224,7 +1228,6 @@ CMakeFiles/shooter.dir/src/main.cpp.o: \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Game/Scenes/../Objects/../../Core/Systems/../Components/../../OpenGL/Texture.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Game/Scenes/../Objects/../../Core/Systems/../Components/../../OpenGL/VertexArray.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Game/Scenes/../Objects/../../Core/Systems/../Components/../../OpenGL/VertexBuffer.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Game/Scenes/../Objects/../../Core/Systems/../Components/../../OpenGL/VertexBufferLayout.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Game/Scenes/../Objects/../../Core/Systems/Renderable.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Game/Scenes/../Objects/../../Core/Components/Transform.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Game/Scenes/../../Core/Scene.h

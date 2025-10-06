@@ -527,6 +527,30 @@ src/OpenGL/IndexBuffer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/OpenGL/IndexBuffer.cpp.s
 .PHONY : src/OpenGL/IndexBuffer.cpp.s
 
+src/OpenGL/ScreenQuad.o: src/OpenGL/ScreenQuad.cpp.o
+.PHONY : src/OpenGL/ScreenQuad.o
+
+# target to build an object file
+src/OpenGL/ScreenQuad.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.o
+.PHONY : src/OpenGL/ScreenQuad.cpp.o
+
+src/OpenGL/ScreenQuad.i: src/OpenGL/ScreenQuad.cpp.i
+.PHONY : src/OpenGL/ScreenQuad.i
+
+# target to preprocess a source file
+src/OpenGL/ScreenQuad.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.i
+.PHONY : src/OpenGL/ScreenQuad.cpp.i
+
+src/OpenGL/ScreenQuad.s: src/OpenGL/ScreenQuad.cpp.s
+.PHONY : src/OpenGL/ScreenQuad.s
+
+# target to generate assembly for a file
+src/OpenGL/ScreenQuad.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter.dir/build.make CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.s
+.PHONY : src/OpenGL/ScreenQuad.cpp.s
+
 src/OpenGL/Shader.o: src/OpenGL/Shader.cpp.o
 .PHONY : src/OpenGL/Shader.o
 
@@ -729,6 +753,9 @@ help:
 	@echo "... src/OpenGL/IndexBuffer.o"
 	@echo "... src/OpenGL/IndexBuffer.i"
 	@echo "... src/OpenGL/IndexBuffer.s"
+	@echo "... src/OpenGL/ScreenQuad.o"
+	@echo "... src/OpenGL/ScreenQuad.i"
+	@echo "... src/OpenGL/ScreenQuad.s"
 	@echo "... src/OpenGL/Shader.o"
 	@echo "... src/OpenGL/Shader.i"
 	@echo "... src/OpenGL/Shader.s"

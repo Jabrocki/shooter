@@ -21,8 +21,19 @@ void Game::Init() {
     this->OnMouseMove(xpos, ypos);
   };
 
+  mWindow.framebufferSizeCallback = [this](float width, float height) {
+    // Update projection matrix
+    projection = glm::perspective(
+        glm::radians(85.0f), static_cast<float>(width) / height, 0.1f, 100.0f);
+
+    // Resize framebuffers
+    this->Renderer.FBO.Resize(width, height);
+    this->Renderer.pingPongFBO[0].Resize(width, height);
+    this->Renderer.pingPongFBO[1].Resize(width, height);
+  };
+
   // Capture mouse
-  //glfwSetInputMode(mWindow.GetNativeWindow(), GLFW_CURSOR,
+  // glfwSetInputMode(mWindow.GetNativeWindow(), GLFW_CURSOR,
   //                 GLFW_CURSOR_DISABLED);
 }
 

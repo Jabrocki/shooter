@@ -282,10 +282,24 @@ CMakeFiles/shooter.dir/src/OpenGL/IndexBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/shooter.dir/src/OpenGL/IndexBuffer.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/IndexBuffer.cpp -o CMakeFiles/shooter.dir/src/OpenGL/IndexBuffer.cpp.s
 
+CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.o: CMakeFiles/shooter.dir/flags.make
+CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.o: /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/ScreenQuad.cpp
+CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.o: CMakeFiles/shooter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.o -MF CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.o.d -o CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.o -c /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/ScreenQuad.cpp
+
+CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/ScreenQuad.cpp > CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.i
+
+CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/ScreenQuad.cpp -o CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.s
+
 CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.o: CMakeFiles/shooter.dir/flags.make
 CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.o: /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/Shader.cpp
 CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.o: CMakeFiles/shooter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.o -MF CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.o.d -o CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.o -c /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/Shader.cpp
 
 CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.i: cmake_force
@@ -299,7 +313,7 @@ CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.s: cmake_force
 CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.o: CMakeFiles/shooter.dir/flags.make
 CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.o: /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/Texture.cpp
 CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.o: CMakeFiles/shooter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.o -MF CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.o.d -o CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.o -c /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/Texture.cpp
 
 CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.i: cmake_force
@@ -313,7 +327,7 @@ CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.s: cmake_force
 CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.o: CMakeFiles/shooter.dir/flags.make
 CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.o: /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/UniformBuffer.cpp
 CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.o: CMakeFiles/shooter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.o -MF CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.o.d -o CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.o -c /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/UniformBuffer.cpp
 
 CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.i: cmake_force
@@ -327,7 +341,7 @@ CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.s: cmake_force
 CMakeFiles/shooter.dir/src/OpenGL/VertexArray.cpp.o: CMakeFiles/shooter.dir/flags.make
 CMakeFiles/shooter.dir/src/OpenGL/VertexArray.cpp.o: /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/VertexArray.cpp
 CMakeFiles/shooter.dir/src/OpenGL/VertexArray.cpp.o: CMakeFiles/shooter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/shooter.dir/src/OpenGL/VertexArray.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/shooter.dir/src/OpenGL/VertexArray.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/shooter.dir/src/OpenGL/VertexArray.cpp.o -MF CMakeFiles/shooter.dir/src/OpenGL/VertexArray.cpp.o.d -o CMakeFiles/shooter.dir/src/OpenGL/VertexArray.cpp.o -c /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/VertexArray.cpp
 
 CMakeFiles/shooter.dir/src/OpenGL/VertexArray.cpp.i: cmake_force
@@ -341,7 +355,7 @@ CMakeFiles/shooter.dir/src/OpenGL/VertexArray.cpp.s: cmake_force
 CMakeFiles/shooter.dir/src/OpenGL/VertexBuffer.cpp.o: CMakeFiles/shooter.dir/flags.make
 CMakeFiles/shooter.dir/src/OpenGL/VertexBuffer.cpp.o: /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/VertexBuffer.cpp
 CMakeFiles/shooter.dir/src/OpenGL/VertexBuffer.cpp.o: CMakeFiles/shooter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/shooter.dir/src/OpenGL/VertexBuffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/shooter.dir/src/OpenGL/VertexBuffer.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/shooter.dir/src/OpenGL/VertexBuffer.cpp.o -MF CMakeFiles/shooter.dir/src/OpenGL/VertexBuffer.cpp.o.d -o CMakeFiles/shooter.dir/src/OpenGL/VertexBuffer.cpp.o -c /Users/jabrooo/Documents/workspace/shooter_png/src/OpenGL/VertexBuffer.cpp
 
 CMakeFiles/shooter.dir/src/OpenGL/VertexBuffer.cpp.i: cmake_force
@@ -355,7 +369,7 @@ CMakeFiles/shooter.dir/src/OpenGL/VertexBuffer.cpp.s: cmake_force
 CMakeFiles/shooter.dir/src/main.cpp.o: CMakeFiles/shooter.dir/flags.make
 CMakeFiles/shooter.dir/src/main.cpp.o: /Users/jabrooo/Documents/workspace/shooter_png/src/main.cpp
 CMakeFiles/shooter.dir/src/main.cpp.o: CMakeFiles/shooter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/shooter.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/shooter.dir/src/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/shooter.dir/src/main.cpp.o -MF CMakeFiles/shooter.dir/src/main.cpp.o.d -o CMakeFiles/shooter.dir/src/main.cpp.o -c /Users/jabrooo/Documents/workspace/shooter_png/src/main.cpp
 
 CMakeFiles/shooter.dir/src/main.cpp.i: cmake_force
@@ -383,6 +397,7 @@ shooter_OBJECTS = \
 "CMakeFiles/shooter.dir/src/OpenGL/Debug.cpp.o" \
 "CMakeFiles/shooter.dir/src/OpenGL/FrameBuffer.cpp.o" \
 "CMakeFiles/shooter.dir/src/OpenGL/IndexBuffer.cpp.o" \
+"CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.o" \
 "CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.o" \
 "CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.o" \
 "CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.o" \
@@ -408,6 +423,7 @@ shooter: CMakeFiles/shooter.dir/src/Game/Scenes/Level.cpp.o
 shooter: CMakeFiles/shooter.dir/src/OpenGL/Debug.cpp.o
 shooter: CMakeFiles/shooter.dir/src/OpenGL/FrameBuffer.cpp.o
 shooter: CMakeFiles/shooter.dir/src/OpenGL/IndexBuffer.cpp.o
+shooter: CMakeFiles/shooter.dir/src/OpenGL/ScreenQuad.cpp.o
 shooter: CMakeFiles/shooter.dir/src/OpenGL/Shader.cpp.o
 shooter: CMakeFiles/shooter.dir/src/OpenGL/Texture.cpp.o
 shooter: CMakeFiles/shooter.dir/src/OpenGL/UniformBuffer.cpp.o
@@ -421,7 +437,7 @@ shooter: /usr/local/lib/libglm.a
 shooter: /opt/homebrew/lib/libassimp.6.0.2.dylib
 shooter: /Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/lib/libz.tbd
 shooter: CMakeFiles/shooter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable shooter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jabrooo/Documents/workspace/shooter_png/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable shooter"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying resources!"
 	/opt/homebrew/bin/cmake -E make_directory /Users/jabrooo/Documents/workspace/shooter_png/build/res
 	/opt/homebrew/bin/cmake -E copy_directory /Users/jabrooo/Documents/workspace/shooter_png/res /Users/jabrooo/Documents/workspace/shooter_png/build/res

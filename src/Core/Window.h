@@ -22,6 +22,7 @@ public:
   GLFWwindow *GetNativeWindow() const;
 
   std::function<void(double, double)> mouseMoveCallback;
+  std::function<void(int, int)> framebufferSizeCallback;
 
 private:
   GLFWwindow *mWindow;

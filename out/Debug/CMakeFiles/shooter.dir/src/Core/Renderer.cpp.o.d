@@ -1187,12 +1187,18 @@ CMakeFiles/shooter.dir/src/Core/Renderer.cpp.o: \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/Systems/Renderable.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/Systems/../../OpenGL/Shader.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/Systems/Updatable.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/FrameBuffer.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/CubeMap.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/IndexBuffer.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/Shader.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/UniformBuffer.h \
-  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/UniformBufferLayout.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/VertexArray.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/VertexBuffer.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/VertexBufferLayout.h \
   /Users/jabrooo/Documents/workspace/shooter_png/external/glad/include/glad/glad.h \
   /Users/jabrooo/Documents/workspace/shooter_png/external/glad/include/KHR/khrplatform.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/FrameBuffer.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/ScreenQuad.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/UniformBuffer.h \
+  /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/UniformBufferLayout.h \
   /Users/jabrooo/Documents/workspace/shooter_png/external/glfw-3.4/include/GLFW/glfw3.h \
   /Users/jabrooo/Documents/workspace/shooter_png/src/Core/../OpenGL/Debug.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \

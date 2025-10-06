@@ -3,6 +3,9 @@
 #include <iostream>
 #include <string>
 
+// OpenGL
+#include "../OpenGL/Debug.h"
+
 Window::Window(unsigned int width, unsigned int height,
                const std::string &title) {
   if (!glfwInit()) {
@@ -64,7 +67,11 @@ GLFWwindow *Window::GetNativeWindow() const { return mWindow; }
 
 void Window::FramebufferSizeCallback(GLFWwindow *window, int width,
                                      int height) {
-  glViewport(0, 0, width, height);
+  GLCall(glViewport(0, 0, width, height));
+  // Update viewport
+  auto *win = static_cast<Window *>(glfwGetWindowUserPointer(window));
+  if (win && win->framebufferSizeCallback)
+    win->framebufferSizeCallback(width, height);
 }
 
 void Window::MouseCallback(GLFWwindow *window, double xpos, double ypos) {
